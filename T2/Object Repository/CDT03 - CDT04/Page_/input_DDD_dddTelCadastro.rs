@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>083f5cff-d7c8-44a4-a130-1ef3ccddc7b7</webElementGuid>
+      <webElementGuid>1b1326b7-fc6e-443f-9351-18ee6e079b51</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>name</name>
       <type>Main</type>
       <value>dddTelCadastro</value>
-      <webElementGuid>edbe39d0-ef3a-491d-94f1-aa8d64394ffb</webElementGuid>
+      <webElementGuid>8335421e-a1bb-443f-85e1-65d95ee8adaa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>dddTelCadastroUsuario</value>
-      <webElementGuid>af6b31c2-c906-434f-9f6e-a6b913a254ba</webElementGuid>
+      <webElementGuid>7a9c9435-5e26-4465-9f78-90fe447ac834</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>2f5e8dc2-73b2-4e6a-a20f-baa1083b390e</webElementGuid>
+      <webElementGuid>18f5fb4b-a683-4fa2-be91-c210c32b6aff</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>2</value>
-      <webElementGuid>49a8148b-6937-46ad-b6e6-7f78c31eebb8</webElementGuid>
+      <webElementGuid>ae375dea-0723-463b-a0fb-2fbb5753cf4e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>c037d72c-2975-4b42-b967-c027021b8c12</webElementGuid>
+      <webElementGuid>cd8d67a9-7273-40b2-9024-98dce2278150</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>onkeypress</name>
       <type>Main</type>
       <value>$(this).mask('(00)')</value>
-      <webElementGuid>82ad5c7b-1ab6-4a53-a8e1-c63c579aa016</webElementGuid>
+      <webElementGuid>fa51af54-5b57-4097-9c33-53882e452ff7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;dddTelCadastroUsuario&quot;)</value>
-      <webElementGuid>b7ba8408-411d-4a9b-978f-d570fd4b3086</webElementGuid>
+      <webElementGuid>504ba4dd-0b83-412d-9edb-04e86c28150d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='dddTelCadastroUsuario']</value>
-      <webElementGuid>b73b9402-6836-4e53-9149-89ff0f76f678</webElementGuid>
+      <webElementGuid>0ad50e24-ad83-4e40-b4b7-46b123c971cb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='formularioCadastroUsuario']/div[3]/div/input</value>
-      <webElementGuid>0143a7d8-a0cf-4cf8-9a9b-90e904a10c54</webElementGuid>
+      <webElementGuid>60000548-ebf5-4979-9d77-82cc1968bafe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/input</value>
-      <webElementGuid>a47402af-32f8-48dd-8b14-3c31184d3be0</webElementGuid>
+      <webElementGuid>8acc7b01-d5f8-440c-a3f5-ea9fb3066b32</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@name = 'dddTelCadastro' and @id = 'dddTelCadastroUsuario' and @type = 'text']</value>
-      <webElementGuid>f18b4588-e733-4ba5-abfa-c2c71796596d</webElementGuid>
+      <webElementGuid>889dfefc-22e0-4ce3-83ae-279276566f9c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

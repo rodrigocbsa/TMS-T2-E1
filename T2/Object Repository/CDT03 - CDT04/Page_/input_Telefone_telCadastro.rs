@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Cidade_cidadeCadastro</name>
+   <name>input_Telefone_telCadastro</name>
    <tag></tag>
-   <elementGuidId>78f1f8fc-ee60-48f3-9725-388fa7ad73ac</elementGuidId>
+   <elementGuidId>2e7e0a7b-6522-4e37-abb2-7d467a545dbf</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='cidadeCadastroEndereco']</value>
+         <value>//input[@id='telCadastroUsuario']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#cidadeCadastroEndereco</value>
+         <value>#telCadastroUsuario</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,23 +22,23 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>d228ecf9-3a32-45e0-b344-95a61714185d</webElementGuid>
+      <webElementGuid>80621585-d154-4af3-8c0f-a3db6df1a348</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>cidadeCadastro</value>
-      <webElementGuid>a18720e2-110e-4df4-add0-38643fe1860d</webElementGuid>
+      <value>telCadastro</value>
+      <webElementGuid>4bfb1e28-7dbc-4c67-b533-d61c6abb58ce</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>cidadeCadastroEndereco</value>
-      <webElementGuid>bae9d3b1-0ee7-478d-b575-f9898848d0a1</webElementGuid>
+      <value>telCadastroUsuario</value>
+      <webElementGuid>4800f412-ab80-41e7-9bb7-49a354afaca9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,15 +46,15 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>aef9225a-5eb2-42b1-b62c-ac338f450d79</webElementGuid>
+      <webElementGuid>c4c6a9e7-4675-4071-95df-61b462077a2f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>maxlength</name>
       <type>Main</type>
-      <value>40</value>
-      <webElementGuid>645b05ca-e854-4f5f-a313-c8ea32f73226</webElementGuid>
+      <value>10</value>
+      <webElementGuid>a4c7d41e-c412-4494-a890-694e492b2ff1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,46 +62,54 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>628f6c48-5ece-4033-b8b4-2e5962913c81</webElementGuid>
+      <webElementGuid>6aa0e4b4-76db-43ff-8c7b-9d9ea24bdc35</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onkeypress</name>
+      <type>Main</type>
+      <value>$(this).mask('90000-0000')</value>
+      <webElementGuid>97a6daae-b8e6-4b1c-b2a7-03f45bddc102</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;cidadeCadastroEndereco&quot;)</value>
-      <webElementGuid>e7489cb0-6241-4b85-bdbe-c9f425eacdae</webElementGuid>
+      <value>id(&quot;telCadastroUsuario&quot;)</value>
+      <webElementGuid>3e446e46-5018-415c-b1ae-ee2b673736b2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='cidadeCadastroEndereco']</value>
-      <webElementGuid>33dc220c-5b30-447b-8882-6d267b92e1ef</webElementGuid>
+      <value>//input[@id='telCadastroUsuario']</value>
+      <webElementGuid>7ba50b0f-f7d7-48b9-9c58-cb5844c28124</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='formularioCadastroUsuario']/div[9]/div/input</value>
-      <webElementGuid>154e8860-e7c9-43f6-b658-502670fee677</webElementGuid>
+      <value>//form[@id='formularioCadastroUsuario']/div[3]/div[2]/input</value>
+      <webElementGuid>3eedd391-f672-411d-a72a-baea3cbc5e80</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[9]/div/input</value>
-      <webElementGuid>79ab50bf-73ce-44e9-816f-5a8338f0a888</webElementGuid>
+      <value>//div[3]/div[2]/input</value>
+      <webElementGuid>2b2aa780-e69d-421d-a309-22e073333b63</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@name = 'cidadeCadastro' and @id = 'cidadeCadastroEndereco' and @type = 'text']</value>
-      <webElementGuid>d2368b96-c32b-4af9-a80b-84b6895de536</webElementGuid>
+      <value>//input[@name = 'telCadastro' and @id = 'telCadastroUsuario' and @type = 'text']</value>
+      <webElementGuid>aab78476-392a-483f-a6a6-d8c8247e0bde</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

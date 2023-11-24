@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Cadastrar</name>
+   <name>div_Cadastrado com Sucesso</name>
    <tag></tag>
-   <elementGuidId>80545cbf-8302-4005-ac59-2093d0dd1379</elementGuidId>
+   <elementGuidId>c05c6864-497d-4444-85dd-5db1e954fbcd</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@type='submit']</value>
+         <value>//div[@id='swal2-content']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>button.btn.btn-primary.btn-block</value>
+         <value>#swal2-content</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,103 +21,103 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>555b9a90-eea8-4f3d-ab1b-85568790db4c</webElementGuid>
+      <value>div</value>
+      <webElementGuid>0dccc406-3d76-44da-9a58-452e8be48e30</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>id</name>
       <type>Main</type>
-      <value>submit</value>
-      <webElementGuid>d6193479-36a9-4d60-b96c-08b1bffe4d16</webElementGuid>
+      <value>swal2-content</value>
+      <webElementGuid>44527e38-8be3-47e5-a977-03535a0d12a4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-primary btn-block</value>
-      <webElementGuid>08c97c53-7ae0-4b5f-9f00-39291cc83f74</webElementGuid>
+      <value>swal2-html-container</value>
+      <webElementGuid>eb71e2bc-cb7c-45f3-a06b-bac33915ddd0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> Cadastrar  </value>
-      <webElementGuid>213e0fb5-cae9-4034-99dd-cdbeb604b786</webElementGuid>
+      <value>Cadastrado com Sucesso!</value>
+      <webElementGuid>87194d65-1b16-461f-84dd-2c140c12196f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;formularioCadastroUsuario&quot;)/div[@class=&quot;form-group&quot;]/button[@class=&quot;btn btn-primary btn-block&quot;]</value>
-      <webElementGuid>a57aba58-7341-45ea-a152-5a5fe61e3368</webElementGuid>
+      <value>id(&quot;swal2-content&quot;)</value>
+      <webElementGuid>930142c6-7fc0-4d7f-8421-854997357816</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@type='submit']</value>
-      <webElementGuid>53f080d6-a51d-4586-9c58-c917b3599028</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//form[@id='formularioCadastroUsuario']/div[10]/button</value>
-      <webElementGuid>b2494ffc-0fa7-4312-9cb9-e297a6c1b35c</webElementGuid>
+      <value>//div[@id='swal2-content']</value>
+      <webElementGuid>9fe2650c-34a4-486e-9896-eba0967aa18f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='UF'])[1]/following::button[1]</value>
-      <webElementGuid>201c01d1-a945-4f87-a7e4-b301325af054</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='×'])[1]/following::div[2]</value>
+      <webElementGuid>be8afe68-b8a2-4c37-8655-98297a3c28fb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cidade'])[1]/following::button[1]</value>
-      <webElementGuid>1e1f2458-a7f3-4c6b-819f-241ca8a2be57</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sucesso!'])[1]/following::div[2]</value>
+      <webElementGuid>19375082-1081-4f09-8d93-4a42358d7ac3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Entrar'])[2]/preceding::button[1]</value>
-      <webElementGuid>ebe34075-f325-4402-86ef-2cb025044053</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='OK'])[1]/preceding::div[4]</value>
+      <webElementGuid>475b7a55-dbae-4983-8c86-48b40fcdfa52</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Cadastrar']/parent::*</value>
-      <webElementGuid>b5adfb4b-0df3-4672-b190-307f94bb2ce0</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::div[4]</value>
+      <webElementGuid>2b984ed4-cc17-456f-a8ec-d91c034236ec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Cadastrado com Sucesso!']/parent::*</value>
+      <webElementGuid>46c37a1c-943d-4369-8dbb-d21eb9bc6ba7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//button</value>
-      <webElementGuid>968ad1ce-a4a9-4193-a2d3-7e461a52f78e</webElementGuid>
+      <value>//div/div[2]/div</value>
+      <webElementGuid>069c477b-ed0d-4fd0-a5a6-c9803face0dd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'submit' and (text() = ' Cadastrar  ' or . = ' Cadastrar  ')]</value>
-      <webElementGuid>c0439912-0e97-4266-b73c-030dc4c81c1a</webElementGuid>
+      <value>//div[@id = 'swal2-content' and (text() = 'Cadastrado com Sucesso!' or . = 'Cadastrado com Sucesso!')]</value>
+      <webElementGuid>55d5ecf1-bec1-406a-91a4-d17e92edb6fb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

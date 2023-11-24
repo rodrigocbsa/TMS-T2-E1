@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>bdb05267-403b-4807-883f-3a8ebf05aa97</webElementGuid>
+      <webElementGuid>4df3337d-bf17-4e34-8ce5-05a011e521c8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>name</name>
       <type>Main</type>
       <value>estadoCadastro</value>
-      <webElementGuid>581c402a-2379-4d2f-8022-8ea225afe12e</webElementGuid>
+      <webElementGuid>882eab45-faa9-4867-8679-3d09e1edb7a4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>uf form-control</value>
-      <webElementGuid>eab6c726-ca5f-4914-b712-3d1114eab95e</webElementGuid>
+      <webElementGuid>c55516b4-9b68-4af3-abee-766dbc0b201c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -73,7 +73,7 @@
 											SE									
 											TO	
 										</value>
-      <webElementGuid>6a84b9a4-ac47-46c2-8bf3-be74265be10b</webElementGuid>
+      <webElementGuid>3bfc7ded-3e9f-423d-bda7-20dbdda607d9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;formularioCadastroUsuario&quot;)/div[@class=&quot;form-row&quot;]/div[@class=&quot;form-group col-md-6&quot;]/select[@class=&quot;uf form-control&quot;]</value>
-      <webElementGuid>6fc69e28-ea44-4d2e-a1ab-c459c5d7a53f</webElementGuid>
+      <webElementGuid>93e07c27-a2f1-4200-89b4-61d7e045c029</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@name='estadoCadastro']</value>
-      <webElementGuid>f7a013fb-f14f-4fde-ac93-47d87681fae8</webElementGuid>
+      <webElementGuid>2d837303-2d02-470f-a51d-788c003a64c2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +97,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='formularioCadastroUsuario']/div[9]/div[2]/select</value>
-      <webElementGuid>af6a3f24-272e-43c8-820f-2a02bdf766f8</webElementGuid>
+      <webElementGuid>a9e5a37f-e57f-4099-b3b6-94a686cfdc25</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,7 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='UF'])[1]/following::select[1]</value>
-      <webElementGuid>91586a0b-f035-4b05-b550-c390e0bfff3c</webElementGuid>
+      <webElementGuid>7fc88dc2-5d5d-4dfa-9f2a-d13198ad7d47</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,7 +113,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cidade'])[1]/following::select[1]</value>
-      <webElementGuid>0f2198f2-d48a-4971-9055-de70610ff7bb</webElementGuid>
+      <webElementGuid>2af5d2e7-b6ed-485f-8abe-934749efba28</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -121,7 +121,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cadastrar'])[1]/preceding::select[1]</value>
-      <webElementGuid>38e2b8cc-5d7a-4981-a1d2-9ff33d8a2dbe</webElementGuid>
+      <webElementGuid>13b846d7-1cca-41c4-967b-15a9bcf88bce</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -129,7 +129,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//select</value>
-      <webElementGuid>7470ec8b-9782-48f2-9331-c72dfb599dc9</webElementGuid>
+      <webElementGuid>ef997829-9eaa-445c-b0b8-3f8313acb97a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -191,6 +191,6 @@
 											SE									
 											TO	
 										')]</value>
-      <webElementGuid>d80a60e2-45a9-49c9-bead-a7e62abe7cb8</webElementGuid>
+      <webElementGuid>7d3b9031-df82-4bd6-8e23-495bc290b67d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

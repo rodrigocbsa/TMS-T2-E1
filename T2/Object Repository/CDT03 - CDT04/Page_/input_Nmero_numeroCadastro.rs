@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_E-mail_emailCadastro</name>
+   <name>input_Nmero_numeroCadastro</name>
    <tag></tag>
-   <elementGuidId>b669f2c1-8607-404c-b3c5-bb346a134624</elementGuidId>
+   <elementGuidId>2db274c6-a49c-4d35-9946-074872b9b6f2</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='emailCadastroUsuario']</value>
+         <value>//input[@id='numeroCadastroEndereco']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#emailCadastroUsuario</value>
+         <value>#numeroCadastroEndereco</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,39 +22,39 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>45ea8d3d-22a1-49bf-83dd-6642cf16e4c0</webElementGuid>
+      <webElementGuid>4f80f394-0b50-4975-af61-17984be87588</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>emailCadastro</value>
-      <webElementGuid>44188de8-fee5-43cf-bea4-0cb32577264b</webElementGuid>
+      <value>numeroCadastro</value>
+      <webElementGuid>03c2f502-be41-49fe-bec8-59a0c9ce3cbb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>emailCadastroUsuario</value>
-      <webElementGuid>be0c578e-efb0-495a-a62d-7c8e0f504830</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>maxlength</name>
-      <type>Main</type>
-      <value>50</value>
-      <webElementGuid>b33d03f4-48fa-41b9-bdc5-89559a03ff96</webElementGuid>
+      <value>numeroCadastroEndereco</value>
+      <webElementGuid>bc7cd002-7dd5-426d-828d-dce47043bd52</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>email</value>
-      <webElementGuid>5ba2bf4b-d29f-41b8-9df5-9b2d19f278d2</webElementGuid>
+      <value>text</value>
+      <webElementGuid>8a413d82-7d61-45e0-9c7c-3ce7deb3d7ab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>maxlength</name>
+      <type>Main</type>
+      <value>5</value>
+      <webElementGuid>12c770d2-6c4d-4a5d-992e-f6f7e0788b78</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,46 +62,46 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>8e3c5ac6-c4d9-4584-8073-c896346857a2</webElementGuid>
+      <webElementGuid>f01c8d7a-c08a-4a4d-a113-a2b7bd702fc2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;emailCadastroUsuario&quot;)</value>
-      <webElementGuid>f6a4c116-e85e-4c03-ab32-2bb750165670</webElementGuid>
+      <value>id(&quot;numeroCadastroEndereco&quot;)</value>
+      <webElementGuid>9352ed1b-599b-42cd-a917-cbef0d8120e8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='emailCadastroUsuario']</value>
-      <webElementGuid>378baed7-694d-4a92-902a-dff4ffc722a0</webElementGuid>
+      <value>//input[@id='numeroCadastroEndereco']</value>
+      <webElementGuid>8bddf9c9-ede3-45fd-a406-828af2278cfc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='formularioCadastroUsuario']/div[2]/input</value>
-      <webElementGuid>3520efc4-92db-4030-8db4-19049ef12aef</webElementGuid>
+      <value>//form[@id='formularioCadastroUsuario']/div[7]/div[2]/input</value>
+      <webElementGuid>76031ba1-419d-4fbe-8238-dcac7df423d0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/input</value>
-      <webElementGuid>4dd58b21-5c7c-4f2b-a1e5-1d27d808a49c</webElementGuid>
+      <value>//div[7]/div[2]/input</value>
+      <webElementGuid>1433ecbd-c337-4afd-8562-ce34ca4377a6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@name = 'emailCadastro' and @id = 'emailCadastroUsuario' and @type = 'email']</value>
-      <webElementGuid>417661ce-0f3d-42c3-b27b-f30bed88ea80</webElementGuid>
+      <value>//input[@name = 'numeroCadastro' and @id = 'numeroCadastroEndereco' and @type = 'text']</value>
+      <webElementGuid>41ea117d-9be6-4f97-b826-4854024f80bc</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

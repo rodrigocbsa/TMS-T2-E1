@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>ef5ec6b9-091e-4c2d-8c09-d29aab177b50</webElementGuid>
+      <webElementGuid>191d5fbc-6584-4058-bd8f-65934d485cf9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-link</value>
-      <webElementGuid>568f0cb7-351f-42dc-85ed-c4c070087b2b</webElementGuid>
+      <webElementGuid>bcd62327-a14a-485d-9174-02a7a2df1102</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>href</name>
       <type>Main</type>
       <value>cadastro.php</value>
-      <webElementGuid>e84f01e8-38d9-4d84-9382-fe17f5d3203c</webElementGuid>
+      <webElementGuid>d0a8c5b3-230e-4997-a53c-735a39691529</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Cadastre-se</value>
-      <webElementGuid>d0f89f35-a424-4ce2-9f49-423ad6acc010</webElementGuid>
+      <webElementGuid>21e7a8b1-2338-4a17-9e25-6f88ffdac365</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/nav[@class=&quot;navbar navbar-expand-lg navbar-light bg-light&quot;]/a[@class=&quot;nav-link&quot;]</value>
-      <webElementGuid>4c201abd-d07e-4b71-a602-4cdab6f720d9</webElementGuid>
+      <webElementGuid>cd71ff1f-1193-4012-b928-3400755d9986</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Cadastre-se')]</value>
-      <webElementGuid>cf2f0dbf-cd06-4a61-95b5-de5b50f521e2</webElementGuid>
+      <webElementGuid>27bfbe7a-9b55-4752-9be7-85e124792755</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Olá, visitante!'])[1]/following::a[1]</value>
-      <webElementGuid>45a68ace-5085-485d-bffb-01bb21547781</webElementGuid>
+      <webElementGuid>f68da033-0f38-4d13-9625-acc72f588169</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='PizzaWeb'])[2]/following::a[2]</value>
-      <webElementGuid>8c750434-6fc7-44aa-a5c5-919de0f47ed8</webElementGuid>
+      <webElementGuid>2f4712d0-3823-4775-8fcd-184e0776065d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Entrar'])[1]/preceding::a[1]</value>
-      <webElementGuid>291064c9-550f-4c3e-9c44-371483d63898</webElementGuid>
+      <webElementGuid>49ada46e-c545-48db-9cf6-565fbd80bc11</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Restaurantes'])[1]/preceding::a[2]</value>
-      <webElementGuid>6e94b42c-f37e-44c2-8a5c-0aee8996d8e2</webElementGuid>
+      <webElementGuid>df0b7024-7c5e-4992-beb5-313a3f58e644</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Cadastre-se']/parent::*</value>
-      <webElementGuid>6e3721d8-0b8a-4d86-af6c-6947fc1396db</webElementGuid>
+      <webElementGuid>23c6adb9-340d-42c7-9160-1725ec25d70c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'cadastro.php')]</value>
-      <webElementGuid>a5bd577a-ea05-4626-8069-3dcfd47901d5</webElementGuid>
+      <webElementGuid>489fc500-9d67-4489-973a-7412ef7088bd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a[3]</value>
-      <webElementGuid>7f05c19f-18cd-4934-93d8-c5d424c2bc7e</webElementGuid>
+      <webElementGuid>e2d93a31-4317-4c7d-912c-60151b5e66f1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +126,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = 'cadastro.php' and (text() = 'Cadastre-se' or . = 'Cadastre-se')]</value>
-      <webElementGuid>bb97ff68-d693-446d-b17f-af8582b387a4</webElementGuid>
+      <webElementGuid>0c298704-f0f7-4940-befa-1c4c4e8cd74f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

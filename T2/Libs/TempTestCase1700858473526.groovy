@@ -18,9 +18,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\isaba\\AppData\\Local\\Temp\\Katalon\\Test Cases\\CDT03 - cadastro simples\\20231124_151903\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\isaba\\AppData\\Local\\Temp\\Katalon\\Test Cases\\CDT04 - Verificar cadastro cliente\\20231124_174113\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/CDT03 - cadastro simples', new TestCaseBinding('Test Cases/CDT03 - cadastro simples',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/CDT04 - Verificar cadastro cliente', new TestCaseBinding('Test Cases/CDT04 - Verificar cadastro cliente',[:]), FailureHandling.STOP_ON_FAILURE , false)
     

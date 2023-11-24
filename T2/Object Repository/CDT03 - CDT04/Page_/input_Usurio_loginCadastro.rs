@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_RuaAv_ruaCadastro</name>
+   <name>input_Usurio_loginCadastro</name>
    <tag></tag>
-   <elementGuidId>eb36f1b7-398a-44e1-96ad-d1790def4f76</elementGuidId>
+   <elementGuidId>46e1c95c-2df0-4e54-85a4-3b6008f59458</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='ruaCadastroEndereco']</value>
+         <value>//input[@id='loginCadastroUsuario']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#ruaCadastroEndereco</value>
+         <value>#loginCadastroUsuario</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,23 +22,23 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>a4a0f7ee-412c-4d9c-bcfc-fcddb7f3dc8f</webElementGuid>
+      <webElementGuid>a221264e-ef5b-4ca6-8e0f-40db6d12f65f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>ruaCadastro</value>
-      <webElementGuid>a2ed6304-871f-4a27-a27a-1d25b194f3fa</webElementGuid>
+      <value>loginCadastro</value>
+      <webElementGuid>013df808-e6f9-477d-b827-bea7ef7c160a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>ruaCadastroEndereco</value>
-      <webElementGuid>79257350-33dc-447b-9254-b18603ca9c1d</webElementGuid>
+      <value>loginCadastroUsuario</value>
+      <webElementGuid>d498f80f-8d74-4f16-9a40-7ccccc10bc70</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,15 +46,15 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>67c45a95-6e8a-487b-a13d-78fae8268feb</webElementGuid>
+      <webElementGuid>962a3258-1157-4489-900f-2b4c5d0d8dfa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>maxlength</name>
       <type>Main</type>
-      <value>40</value>
-      <webElementGuid>a623f649-18ad-486d-9908-09c10db1ea75</webElementGuid>
+      <value>20</value>
+      <webElementGuid>5ec7977c-1a96-4b51-aa4f-909e99a4e6a4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,46 +62,46 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>296f55a1-4ea2-44d4-aa76-ec708be454cb</webElementGuid>
+      <webElementGuid>5554cae4-e3e5-42dd-94e3-7d640ebf0747</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;ruaCadastroEndereco&quot;)</value>
-      <webElementGuid>c3214153-5152-4b10-b869-d457af193758</webElementGuid>
+      <value>id(&quot;loginCadastroUsuario&quot;)</value>
+      <webElementGuid>030a13a2-1c01-4f44-8222-5e35a7a3074c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='ruaCadastroEndereco']</value>
-      <webElementGuid>9131479c-a104-40f3-bae0-26dab4ecd2ce</webElementGuid>
+      <value>//input[@id='loginCadastroUsuario']</value>
+      <webElementGuid>5df0e14f-b2de-4149-a838-67dcb780f3da</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='formularioCadastroUsuario']/div[7]/div/input</value>
-      <webElementGuid>1b3deca1-fe6f-4a4b-9407-0fc1e9b19f8f</webElementGuid>
+      <value>//form[@id='formularioCadastroUsuario']/div[4]/div/input</value>
+      <webElementGuid>d33e10d0-f3e1-45b9-b2bf-b1785d1bd78f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[7]/div/input</value>
-      <webElementGuid>69985af5-d099-42d5-80d5-98aaa5f3a7ae</webElementGuid>
+      <value>//div[4]/div/input</value>
+      <webElementGuid>a77f154d-0d06-40f1-90c0-ffbf189fb5c1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@name = 'ruaCadastro' and @id = 'ruaCadastroEndereco' and @type = 'text']</value>
-      <webElementGuid>3e1eec07-7f18-49c4-9af2-a42c862c53b1</webElementGuid>
+      <value>//input[@name = 'loginCadastro' and @id = 'loginCadastroUsuario' and @type = 'text']</value>
+      <webElementGuid>675e45cd-a0bd-4508-b755-025292c26be8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
