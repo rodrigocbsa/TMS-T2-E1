@@ -25,7 +25,7 @@ WebUI.click(findTestObject('Object Repository/CDT01 - CDT02/Page_PizzaWeb/a_Entr
 //
 //WebUI.click(findTestObject('Object Repository/CDT01 - CDT02/Page_Login/button_Login'))
 
-WebUI.callTestCase(findTestCase('CDT02 - login cliente - login simple'), [('usuario') : 'marco', ('senha') : 'senhaInvalida'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CDT02 - login simple'), [('usuario') : 'marco', ('senha') : 'senhaInvalida'], FailureHandling.STOP_ON_FAILURE)
 
 
 WebUI.verifyElementText(findTestObject('CDT01 - CDT02/Page_/div_msg_Usurio_ou_senha_invalidos'), 'Usuário ou senha inválidos.', 
@@ -33,7 +33,7 @@ WebUI.verifyElementText(findTestObject('CDT01 - CDT02/Page_/div_msg_Usurio_ou_se
 
 WebUI.click(findTestObject('Object Repository/CDT01 - CDT02/Page_/button_OK'))
 
-WebUI.callTestCase(findTestCase('CDT02 - login cliente - login simple'), [('usuario') : 'marco', ('senha') : 'marco'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CDT02 - login simple'), [('usuario') : 'marco', ('senha') : 'marco'], FailureHandling.STOP_ON_FAILURE)
 
 //WebUI.setText(findTestObject('Object Repository/CDT01 - CDT02/Page_Login/input_Entrar_login'), 'marco')
 //

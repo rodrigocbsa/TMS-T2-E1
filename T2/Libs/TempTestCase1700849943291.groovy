@@ -18,9 +18,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\isaba\\AppData\\Local\\Temp\\Katalon\\Test Cases\\CDT01 - login cliente - Verificar login incorreto e correto\\20231122_112740\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\isaba\\AppData\\Local\\Temp\\Katalon\\Test Cases\\CDT03 - cadastro simples\\20231124_151903\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/CDT01 - login cliente - Verificar login incorreto e correto', new TestCaseBinding('Test Cases/CDT01 - login cliente - Verificar login incorreto e correto',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/CDT03 - cadastro simples', new TestCaseBinding('Test Cases/CDT03 - cadastro simples',[:]), FailureHandling.STOP_ON_FAILURE , false)
     
