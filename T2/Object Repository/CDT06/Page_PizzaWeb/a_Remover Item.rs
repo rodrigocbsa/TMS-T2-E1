@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Remover Item</name>
+   <tag></tag>
+   <elementGuidId>9cbf19a7-c5b4-4737-8987-8cd066991c4c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='tabelaResumoPedidoUsuario']/tbody/tr[3]/td[4]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>td:nth-of-type(4) > a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>ac4544b0-463c-4d2f-9e99-e33e0e694387</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>excluirItensCarrinho.php?id=0</value>
+      <webElementGuid>d243d779-eef8-41da-bf68-aad2b71ea33c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Remover Item</value>
+      <webElementGuid>0f49da08-7583-4822-8415-a98c30a2a31a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tabelaResumoPedidoUsuario&quot;)/tbody[1]/tr[3]/td[4]/a[1]</value>
+      <webElementGuid>7a67ba80-597f-4e4c-a7bc-390fed370e56</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='tabelaResumoPedidoUsuario']/tbody/tr[3]/td[4]/a</value>
+      <webElementGuid>0812e39e-46a1-4da0-aa4e-d9c78539e8cb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Remover Item')]</value>
+      <webElementGuid>572bdbaa-e47f-432b-a334-47c145b5f7df</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='R$ 10,00'])[1]/following::a[1]</value>
+      <webElementGuid>a4e3dd82-0341-4708-a8dc-6a5d6a61fc98</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Chocolate / Média'])[1]/preceding::a[1]</value>
+      <webElementGuid>b6d9a986-b9c9-4375-88d3-1d623c6d208f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='R$ 15,00'])[1]/preceding::a[1]</value>
+      <webElementGuid>f81d676b-6b0a-40f9-abeb-44bcff93406e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Remover Item']/parent::*</value>
+      <webElementGuid>88d23f63-a836-4636-9515-0b88246304dd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'excluirItensCarrinho.php?id=0')]</value>
+      <webElementGuid>412695c2-c627-455f-bf7a-b7bf040a681b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[4]/a</value>
+      <webElementGuid>f4428d1f-19e8-4205-bbab-52ce9c1d6dad</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'excluirItensCarrinho.php?id=0' and (text() = 'Remover Item' or . = 'Remover Item')]</value>
+      <webElementGuid>a14004ad-4cb4-4340-b584-684379d466fc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

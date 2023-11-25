@@ -17,30 +17,30 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.setText(findTestObject('Object Repository/CDT03 - CDT04/Page_/input_Nome_nomeCadastro'), nome)
+WebUI.setText(findTestObject('Object Repository/CDT03 - CDT04 - CDT05/Page_/input_Nome_nomeCadastro'), nome)
 
-WebUI.setText(findTestObject('Object Repository/CDT03 - CDT04/Page_/input_E-mail_emailCadastro'), email)
+WebUI.setText(findTestObject('Object Repository/CDT03 - CDT04 - CDT05/Page_/input_E-mail_emailCadastro'), email)
 
-WebUI.setText(findTestObject('Object Repository/CDT03 - CDT04/Page_/input_DDD_dddTelCadastro'), ddd)
+WebUI.setText(findTestObject('Object Repository/CDT03 - CDT04 - CDT05/Page_/input_DDD_dddTelCadastro'), ddd)
 
-WebUI.setText(findTestObject('Object Repository/CDT03 - CDT04/Page_/input_Telefone_telCadastro'), telefone)
+WebUI.setText(findTestObject('Object Repository/CDT03 - CDT04 - CDT05/Page_/input_Telefone_telCadastro'), telefone)
 
-WebUI.setText(findTestObject('Object Repository/CDT03 - CDT04/Page_/input_Usurio_loginCadastro'), usuario)
+WebUI.setText(findTestObject('Object Repository/CDT03 - CDT04 - CDT05/Page_/input_Usurio_loginCadastro'), usuario)
 
-WebUI.setText(findTestObject('Object Repository/CDT03 - CDT04/Page_/input_Senha_senhaCadastro'), senha)
+WebUI.setText(findTestObject('Object Repository/CDT03 - CDT04 - CDT05/Page_/input_Senha_senhaCadastro'), senha)
 
-WebUI.setText(findTestObject('Object Repository/CDT03 - CDT04/Page_/input_Repetir a senha_form-control'), repetir_senha)
+WebUI.setText(findTestObject('Object Repository/CDT03 - CDT04 - CDT05/Page_/input_Repetir a senha_form-control'), repetir_senha)
 
-WebUI.setText(findTestObject('Object Repository/CDT03 - CDT04/Page_/input_RuaAv_ruaCadastro'), rua)
+WebUI.setText(findTestObject('Object Repository/CDT03 - CDT04 - CDT05/Page_/input_RuaAv_ruaCadastro'), rua)
 
-WebUI.setText(findTestObject('Object Repository/CDT03 - CDT04/Page_/input_Nmero_numeroCadastro'), numero)
+WebUI.setText(findTestObject('Object Repository/CDT03 - CDT04 - CDT05/Page_/input_Nmero_numeroCadastro'), numero)
 
-WebUI.setText(findTestObject('Object Repository/CDT03 - CDT04/Page_/input_Bairro_bairroCadastro'), bairro)
+WebUI.setText(findTestObject('Object Repository/CDT03 - CDT04 - CDT05/Page_/input_Bairro_bairroCadastro'), bairro)
 
-WebUI.setText(findTestObject('Object Repository/CDT03 - CDT04/Page_/input_Complemento_complementoCadastro'), complemento)
+WebUI.setText(findTestObject('Object Repository/CDT03 - CDT04 - CDT05/Page_/input_Complemento_complementoCadastro'), complemento)
 
-WebUI.setText(findTestObject('Object Repository/CDT03 - CDT04/Page_/input_Cidade_cidadeCadastro'), cidade)
+WebUI.setText(findTestObject('Object Repository/CDT03 - CDT04 - CDT05/Page_/input_Cidade_cidadeCadastro'), cidade)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/CDT03 - CDT04/Page_/select_ALAPAMBACEDFESGOMAMTMSMGPAPBPRPEPIRR_4d941d'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/CDT03 - CDT04 - CDT05/Page_/select_ALAPAMBACEDFESGOMAMTMSMGPAPBPRPEPIRR_4d941d'), 
     uf, true)
 

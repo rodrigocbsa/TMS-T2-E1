@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_CartoDinheiro na entrega_btn btn-success</name>
+   <tag></tag>
+   <elementGuidId>1650e288-34b5-4bdc-916f-f86cbfe9cb18</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@value='Finalizar Pedido!']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input.btn.btn-success</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>5103c89f-1053-4fe3-9436-c45a74b90333</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-success</value>
+      <webElementGuid>20a9e055-3ea5-4276-b75a-f8117de5eb72</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>4687c15f-0364-47aa-89ec-b2f64dc2c1e0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>Finalizar Pedido!</value>
+      <webElementGuid>9d8fe69d-64f4-42f2-aba2-7f7285989896</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tabelaResumoPedidoRestaurante&quot;)/tbody[1]/tr[8]/td[1]/form[1]/p[1]/input[@class=&quot;btn btn-success&quot;]</value>
+      <webElementGuid>a444d57e-c25e-408a-ac55-e6c67dd1dd3d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@value='Finalizar Pedido!']</value>
+      <webElementGuid>53f7252e-d498-40c7-a556-d4a75bf9799e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='tabelaResumoPedidoRestaurante']/tbody/tr[8]/td/form/p/input</value>
+      <webElementGuid>317573f9-d389-4ae8-bcc4-6633c203e375</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/p/input</value>
+      <webElementGuid>2f4ae300-dded-44af-bd80-9b49a394802a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'submit']</value>
+      <webElementGuid>8227bb8a-4e82-4367-b67b-4ee424033d04</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

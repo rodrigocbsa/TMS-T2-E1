@@ -21,7 +21,7 @@ WebUI.openBrowser('', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.navigateToUrl('http://localhost/pizzaWeb2.0/site/index.php', FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/CDT03 - CDT04/Page_PizzaWeb/a_Cadastre-se'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/CDT03 - CDT04 - CDT05/Page_PizzaWeb/a_Cadastre-se'), FailureHandling.CONTINUE_ON_FAILURE)
 
 //RF1CDT01 - Realização de cadastro com campos obrigatórios faltantes
 WebUI.callTestCase(findTestCase('CDT03 - cadastro simples'), [('nome') : 'teste', ('email') : '', ('ddd') : '11'
@@ -29,7 +29,7 @@ WebUI.callTestCase(findTestCase('CDT03 - cadastro simples'), [('nome') : 'teste'
 	, ('numero') : '200', ('bairro') : 'bairro', ('complemento') : 'complemento', ('cidade') : 'Rio de Janeiro', ('uf') : 'MG'],
 FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/CDT03 - CDT04/Page_/button_Cadastrar'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/CDT03 - CDT04 - CDT05/Page_/button_Cadastrar'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyTextPresent('Cadastro', false, FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -39,11 +39,11 @@ WebUI.callTestCase(findTestCase('CDT03 - cadastro simples'), [('nome') : 'teste'
 	, ('numero') : '200', ('bairro') : 'bairro', ('complemento') : 'complemento', ('cidade') : 'Rio de Janeiro', ('uf') : 'MG'],
 FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/CDT03 - CDT04/Page_/button_Cadastrar'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/CDT03 - CDT04 - CDT05/Page_/button_Cadastrar'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyTextPresent('Nome de usuário reservado!', false, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/CDT03 - CDT04/Page_/button_OK'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/CDT03 - CDT04 - CDT05/Page_/button_OK'), FailureHandling.CONTINUE_ON_FAILURE)
 
 //RF1CDT02 - Realização de cadastro com senhas não coincidentes
 WebUI.callTestCase(findTestCase('CDT03 - cadastro simples'), [('nome') : 'teste', ('email') : 'teste@gmail.com', ('ddd') : '11'
@@ -51,7 +51,7 @@ WebUI.callTestCase(findTestCase('CDT03 - cadastro simples'), [('nome') : 'teste'
 	, ('numero') : '200', ('bairro') : 'bairro', ('complemento') : 'complemento', ('cidade') : 'Rio de Janeiro', ('uf') : 'MG'],
 FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/CDT03 - CDT04/Page_/button_Cadastrar'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/CDT03 - CDT04 - CDT05/Page_/button_Cadastrar'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyTextPresent('Cadastro', false, FailureHandling.CONTINUE_ON_FAILURE)
 

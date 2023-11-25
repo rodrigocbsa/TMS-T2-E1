@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>CDT05 - cadastro cliente - Verificar sucesso e usuarios repetidos</name>
+   <name>CDT05 - RF01 - cadastro cliente - Verificar sucesso e usuarios repetidos</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>6829bd32-526b-44a4-8bbc-47331c42e42a</testCaseGuid>
