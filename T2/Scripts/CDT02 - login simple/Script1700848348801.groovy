@@ -17,10 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-	WebUI.click(findTestObject('Object Repository/CDT01 - CDT02/Page_PizzaWeb/a_Entrar'))
-	
-	WebUI.setText(findTestObject('Object Repository/CDT01 - CDT02/Page_Login/input_Entrar_login'), usuario)
-	
-	WebUI.setText(findTestObject('Object Repository/CDT01 - CDT02/Page_Login/input_Entrar_senha'), senha)
-	
-	WebUI.click(findTestObject('Object Repository/CDT01 - CDT02/Page_Login/button_Login'))
+WebUI.setText(findTestObject('Object Repository/CDT01 - CDT02/Page_Login/input_Entrar_login'), usuario, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.setText(findTestObject('Object Repository/CDT01 - CDT02/Page_Login/input_Entrar_senha'), senha, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.click(findTestObject('Object Repository/CDT01 - CDT02/Page_Login/button_Login'), FailureHandling.CONTINUE_ON_FAILURE)
+

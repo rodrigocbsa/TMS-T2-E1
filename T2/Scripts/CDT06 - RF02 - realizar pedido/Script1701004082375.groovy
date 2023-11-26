@@ -22,7 +22,7 @@ WebUI.openBrowser('http://localhost/pizzaWeb2.0/site/index.php', FailureHandling
 
 WebUI.click(findTestObject('Object Repository/CDT06 - CDT07/Page_PizzaWeb/a_Entrar'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('CDT02 - login simple'), [('usuario') : 'admin', ('senha') : 'admin'], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CDT02 - login simple'), [('usuario') : 'marco', ('senha') : 'marco'], FailureHandling.CONTINUE_ON_FAILURE)
 
 //RF2CDT01 - Escolher pedido com remoção de item e verificação de valor correto
 WebUI.click(findTestObject('Object Repository/CDT06 - CDT07/Page_PizzaWeb/a_California'), FailureHandling.CONTINUE_ON_FAILURE)

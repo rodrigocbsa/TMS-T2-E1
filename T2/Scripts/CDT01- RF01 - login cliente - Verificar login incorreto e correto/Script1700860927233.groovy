@@ -15,20 +15,20 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('http://localhost/pizzaWeb2.0/site/index.php')
+WebUI.openBrowser('http://localhost/pizzaWeb2.0/site/index.php', FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/CDT01 - CDT02/Page_PizzaWeb/a_Entrar'))
+WebUI.click(findTestObject('Object Repository/CDT01 - CDT02/Page_PizzaWeb/a_Entrar'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('CDT02 - login simple'), [('usuario') : 'marco', ('senha') : 'senhaInvalida'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CDT02 - login simple'), [('usuario') : 'marco', ('senha') : 'senhaInvalida'], FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('CDT01 - CDT02/Page_/div_msg_Usurio_ou_senha_invalidos'), 'Usuário ou senha inválidos.', 
-    FailureHandling.STOP_ON_FAILURE)
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/CDT01 - CDT02/Page_/button_OK'))
+WebUI.click(findTestObject('Object Repository/CDT01 - CDT02/Page_/button_OK'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('CDT02 - login simple'), [('usuario') : 'marco', ('senha') : 'marco'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CDT02 - login simple'), [('usuario') : 'marco', ('senha') : 'marco'], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('Object Repository/CDT01 - CDT02/Page_PizzaWeb/a_Ol, Usuario'), 'Olá, Marco!')
+WebUI.verifyElementText(findTestObject('Object Repository/CDT01 - CDT02/Page_PizzaWeb/a_Ol, Usuario'), 'Olá, Marco!', FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.closeBrowser()
+WebUI.closeBrowser(FailureHandling.CONTINUE_ON_FAILURE)
 
