@@ -18,9 +18,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\isaba\\AppData\\Local\\Temp\\Katalon\\Test Cases\\CTD06 - RF02 - realizar pedido\\20231124_204358\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\isaba\\AppData\\Local\\Temp\\Katalon\\Test Cases\\CDT07 - RF02 - realizar pedido fora do horario\\20231126_101132\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/CTD06 - RF02 - realizar pedido', new TestCaseBinding('Test Cases/CTD06 - RF02 - realizar pedido',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/CDT07 - RF02 - realizar pedido fora do horario', new TestCaseBinding('Test Cases/CDT07 - RF02 - realizar pedido fora do horario',[:]), FailureHandling.STOP_ON_FAILURE , false)
     

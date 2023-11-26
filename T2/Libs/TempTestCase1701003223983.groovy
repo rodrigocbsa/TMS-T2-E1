@@ -18,7 +18,7 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\isaba\\AppData\\Local\\Temp\\Katalon\\Test Cases\\CTD06 - RF02 - realizar pedido\\20231124_203201\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\isaba\\AppData\\Local\\Temp\\Katalon\\Test Cases\\CTD06 - RF02 - realizar pedido\\20231126_095343\\execution.properties')
 
 TestCaseMain.beforeStart()
 

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Pizzaria Quadratta</name>
+   <tag></tag>
+   <elementGuidId>f3a1bbfa-e6f3-4aef-8a41-69eb1ecf7941</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='divListaPizzarias']/ul/a[6]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>27254bab-9171-464a-9d90-857143702b3f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>list-group-item list-group-item-action</value>
+      <webElementGuid>a5b78ae6-0fbd-4d49-a760-f10ff2dacbb7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>index.php?p=6</value>
+      <webElementGuid>3b6f582a-ade8-4b7c-8f57-84e60b0fab4b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Pizzaria Quadratta</value>
+      <webElementGuid>d21e06ad-3c3a-49a2-9d93-bbfa4d624579</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;divListaPizzarias&quot;)/ul[@class=&quot;list-group list-group-flush&quot;]/a[@class=&quot;list-group-item list-group-item-action&quot;]</value>
+      <webElementGuid>3300bfb7-1c3c-46c2-b9be-de2ae205afa6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='divListaPizzarias']/ul/a[6]</value>
+      <webElementGuid>a4f8fc6c-7c13-43b7-b706-af136c458041</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Pizzaria Quadratta')]</value>
+      <webElementGuid>59d03f9e-670b-4b01-bde2-2f2395760760</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Red Tomato Pizza'])[1]/following::a[1]</value>
+      <webElementGuid>f39a30b7-cfbf-41a1-9ca4-cee8575babca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Prediletta'])[1]/following::a[2]</value>
+      <webElementGuid>2df763a7-9143-43d5-b879-8fd38ce07943</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Yakisoba Express'])[1]/preceding::a[1]</value>
+      <webElementGuid>29f96243-6c3f-416f-bf5e-f961dadb78f7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Estatísticas'])[1]/preceding::a[2]</value>
+      <webElementGuid>38764aae-03fe-4d51-ae4f-4be75ba99f63</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Pizzaria Quadratta']/parent::*</value>
+      <webElementGuid>67a31581-82a6-4175-a030-84373a8517f3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'index.php?p=6')]</value>
+      <webElementGuid>849368ff-b566-4ef6-ba0a-19ed1e78f046</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[6]</value>
+      <webElementGuid>8c45d88d-39a3-4396-841a-2df962edeecc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'index.php?p=6' and (text() = 'Pizzaria Quadratta' or . = 'Pizzaria Quadratta')]</value>
+      <webElementGuid>ec652881-1bcd-4459-955f-d51b351c4541</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
