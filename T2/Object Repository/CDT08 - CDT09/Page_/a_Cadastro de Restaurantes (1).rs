@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Cadastro de Restaurantes (1)</name>
+   <tag></tag>
+   <elementGuidId>046ee4a0-ec9e-4f40-8d3e-5f2cf328d6ac</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>p > a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='principalAdministrador']/p/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>ddb03331-f0ea-40a3-a6ec-8ec543e3867f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>cadastroRestaurantes.php</value>
+      <webElementGuid>7c5d50f9-3739-4ecd-9571-9f49d24cd40a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Cadastro de Restaurantes</value>
+      <webElementGuid>d222f628-bf46-494f-af37-3f2c1fa51aa2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;principalAdministrador&quot;)/p[1]/a[1]</value>
+      <webElementGuid>16a3eef4-935e-4e88-9703-e118cdbbab95</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='principalAdministrador']/p/a</value>
+      <webElementGuid>1a294805-33d9-41af-952e-e9fd758074b1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Cadastro de Restaurantes')]</value>
+      <webElementGuid>521e5990-3029-47c4-8bc7-8cbdbb0a18ea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ações de Gerenciamento'])[1]/following::a[1]</value>
+      <webElementGuid>fb91357f-1dc1-4caf-a70b-53354ca749c0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sair'])[1]/following::a[1]</value>
+      <webElementGuid>90c93393-11b1-4468-ab39-788e473f51c4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cadastro de Formas de Entrega de um Restaurante'])[1]/preceding::a[1]</value>
+      <webElementGuid>f1379f22-1045-4169-ab6a-a38fb84e2675</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cadastro de Categorias de Pratos'])[1]/preceding::a[2]</value>
+      <webElementGuid>85e600a6-a9e5-40db-b7c5-71aa7c217b32</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Cadastro de Restaurantes']/parent::*</value>
+      <webElementGuid>5015f27f-1769-407d-8112-cb6c93c353dc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'cadastroRestaurantes.php')]</value>
+      <webElementGuid>93f37fde-324f-41b3-b803-cbcb47350b24</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p/a</value>
+      <webElementGuid>cf815ec8-f55c-45df-9d1f-971e1bc3322a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'cadastroRestaurantes.php' and (text() = 'Cadastro de Restaurantes' or . = 'Cadastro de Restaurantes')]</value>
+      <webElementGuid>0bdb7f76-f28e-400d-b97c-e0737976759f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

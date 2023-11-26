@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Gerenciar Restaurantes</name>
+   <tag></tag>
+   <elementGuidId>3f4c8ceb-d10f-44c1-a0c5-dd90be24c568</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>p:nth-of-type(10) > a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='principalAdministrador']/p[10]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>9dc03d25-c9cc-4abe-8494-60ec578ed011</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>controleRestaurantes.php</value>
+      <webElementGuid>9311593a-69e6-4e26-b200-46dc3977ef40</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Gerenciar Restaurantes</value>
+      <webElementGuid>6cb7636f-13fb-49c4-8b89-584cefa66971</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;principalAdministrador&quot;)/p[10]/a[1]</value>
+      <webElementGuid>c94f4cde-dbd8-468e-a486-019ee8931600</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='principalAdministrador']/p[10]/a</value>
+      <webElementGuid>3d3d91d7-2587-4362-9cb9-f48ffbdbe191</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Gerenciar Restaurantes')]</value>
+      <webElementGuid>dfafe3b6-5f18-4208-8679-d7902f690ed5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Gerenciar Usuários'])[1]/following::a[1]</value>
+      <webElementGuid>44c4b7f9-d24a-4ea7-b964-c27b16e3d3e8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Gerenciar Extras'])[1]/following::a[2]</value>
+      <webElementGuid>fb28d63b-3b8a-477d-a4cc-6ce65462b26d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'principalAdministrador', '&quot;', ')/p[10]/a[1]')])[1]/preceding::a[1]</value>
+      <webElementGuid>96df0fdd-e8ef-4794-a320-1a4ac0a67568</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Gerenciar Restaurantes']/parent::*</value>
+      <webElementGuid>02b57944-4bd0-4ed2-9f73-5813045d3c20</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'controleRestaurantes.php')]</value>
+      <webElementGuid>c749cca2-a75a-4493-9012-bec48ea50048</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p[10]/a</value>
+      <webElementGuid>f69ea6c8-2b11-4556-8df6-3c044a7020c5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'controleRestaurantes.php' and (text() = 'Gerenciar Restaurantes' or . = 'Gerenciar Restaurantes')]</value>
+      <webElementGuid>f5e81078-d677-4e00-b69e-68a22ee7e94a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
