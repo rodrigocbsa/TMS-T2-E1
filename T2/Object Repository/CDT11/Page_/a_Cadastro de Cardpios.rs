@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Cadastro de Cardpios</name>
+   <tag></tag>
+   <elementGuidId>9ac323cc-aa98-4132-9bc9-758ee059d391</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>p:nth-of-type(4) > a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='principalAdministrador']/p[4]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>813cfdce-e3da-46dc-b289-11457142a37f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>cadastroCardapios.php</value>
+      <webElementGuid>46db5cb4-cb3c-4243-aadf-59648779b0ff</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Cadastro de Cardápios</value>
+      <webElementGuid>976112dc-5fc2-498c-a049-4188979fb466</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;principalAdministrador&quot;)/p[4]/a[1]</value>
+      <webElementGuid>7487fe67-e962-4737-ae2d-33c191c615ae</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='principalAdministrador']/p[4]/a</value>
+      <webElementGuid>deebc266-eb2d-4841-ba5c-384b1ea67ad0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Cadastro de Cardápios')]</value>
+      <webElementGuid>462a6bfb-de49-48db-a25d-b036a1756adc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cadastro de Categorias de Pratos'])[1]/following::a[1]</value>
+      <webElementGuid>b39d9401-d95a-4067-8fde-4e6e0a88abb2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cadastro de Formas de Entrega de um Restaurante'])[1]/following::a[2]</value>
+      <webElementGuid>8df350da-aea7-44de-a884-30883fd8cf54</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Gerenciar Pratos'])[1]/preceding::a[1]</value>
+      <webElementGuid>5ed184b0-6cc1-4a5b-b7f6-31281f4238e5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cadastro de pizzas com dois sabores'])[1]/preceding::a[2]</value>
+      <webElementGuid>3dc78a8e-3c8e-436e-851f-1e83057a9be5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Cadastro de Cardápios']/parent::*</value>
+      <webElementGuid>b021acec-e5dd-4cc5-8e5b-649435567e0e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'cadastroCardapios.php')]</value>
+      <webElementGuid>3a1448b5-4a5b-4fe3-bc45-a4a80b7226d1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p[4]/a</value>
+      <webElementGuid>3fe382f5-09d6-4213-9843-dd1f667a04e2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'cadastroCardapios.php' and (text() = 'Cadastro de Cardápios' or . = 'Cadastro de Cardápios')]</value>
+      <webElementGuid>4bc8a4ab-776d-4978-967b-346becd92d4e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

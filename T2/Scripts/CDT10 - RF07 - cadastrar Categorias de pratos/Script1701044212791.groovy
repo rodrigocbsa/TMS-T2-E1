@@ -17,24 +17,26 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.openBrowser('', FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.navigateToUrl('http://localhost/pizzaWeb2.0/site/index.php')
+WebUI.navigateToUrl('http://localhost/pizzaWeb2.0/site/index.php', FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/CDT10/Page_PizzaWeb/a_Entrar'))
+WebUI.click(findTestObject('Object Repository/CDT10/Page_PizzaWeb/a_Entrar'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('CDT02 - login simple'), [('usuario') : 'admin', ('senha') : 'admin'], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/CDT10/Page_PizzaWeb/a_Gerenciar'))
+WebUI.click(findTestObject('Object Repository/CDT10/Page_PizzaWeb/a_Gerenciar'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/CDT10/Page_/a_Cadastro de Categorias de Pratos'))
+WebUI.click(findTestObject('Object Repository/CDT10/Page_/a_Cadastro de Categorias de Pratos'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/CDT10/Page_/input_Nome da Categoria_nomeCategoria'), 'Massas')
+WebUI.setText(findTestObject('Object Repository/CDT10/Page_/input_Nome da Categoria_nomeCategoria'), 'Massas', FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/CDT10/Page_/input_submit'))
+WebUI.click(findTestObject('Object Repository/CDT10/Page_/input_submit'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('Object Repository/CDT10/Page_/div_Cadastrado com Sucesso'), 'Cadastrado com Sucesso!')
+WebUI.verifyElementText(findTestObject('Object Repository/CDT10/Page_/div_Cadastrado com Sucesso'), 'Cadastrado com Sucesso!', 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/CDT10/Page_/button_OK'))
+WebUI.click(findTestObject('Object Repository/CDT10/Page_/button_OK'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.closeBrowser()
+WebUI.closeBrowser(FailureHandling.CONTINUE_ON_FAILURE)
+

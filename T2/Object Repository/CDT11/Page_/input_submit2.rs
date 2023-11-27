@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_submit2</name>
+   <tag></tag>
+   <elementGuidId>d99d866f-0aaf-4e3d-bcd5-d15aebec9873</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#formularioCadastroCardapioNovo > p > input[type=&quot;submit&quot;]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;formularioCadastroCardapioNovo&quot;)/p[1]/input[1]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@value='Inserir pratos no cardápio de Papillon']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>248e7e3a-8483-4aff-ba3f-ec4cf2e11879</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>0f2e0aa9-7e46-428c-992a-da991140f3c1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>Inserir pratos no cardápio de Papillon</value>
+      <webElementGuid>dcecd9f9-4c4b-46c9-8a03-753c6efe8abe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;formularioCadastroCardapioNovo&quot;)/p[1]/input[1]</value>
+      <webElementGuid>8b7e0ae1-6270-4c75-a896-82b2f15ee803</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@value='Inserir pratos no cardápio de Papillon']</value>
+      <webElementGuid>ceba6a5a-e494-43e8-bb57-1c59aeb6ce68</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='formularioCadastroCardapioNovo']/p/input</value>
+      <webElementGuid>59b6a324-d4d6-4ea7-89b3-6a38f7db7dd9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/form/p/input</value>
+      <webElementGuid>84fd7811-61f4-4e3a-92ab-b55d8bc4dd7a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'submit']</value>
+      <webElementGuid>3c61e22e-f172-4180-b73f-894ac06f2a27</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
