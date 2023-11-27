@@ -18,9 +18,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\isaba\\AppData\\Local\\Temp\\Katalon\\Test Cases\\CDT08 - RF04 - cadastrar restaurante com campos em branco\\20231126_200327\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\isaba\\AppData\\Local\\Temp\\Katalon\\Test Cases\\CDT10 - RF05 - mudar status do pedido\\20231126_211328\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/CDT08 - RF04 - cadastrar restaurante com campos em branco', new TestCaseBinding('Test Cases/CDT08 - RF04 - cadastrar restaurante com campos em branco',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/CDT10 - RF05 - mudar status do pedido', new TestCaseBinding('Test Cases/CDT10 - RF05 - mudar status do pedido',[:]), FailureHandling.STOP_ON_FAILURE , false)
     

@@ -18,9 +18,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\isaba\\AppData\\Local\\Temp\\Katalon\\Test Cases\\CDT08 - RF04 - cadastrar restaurante\\20231126_194637\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\isaba\\AppData\\Local\\Temp\\Katalon\\Test Cases\\CDT10 - RF07 - cadastrar Categorias de pratos\\20231126_212048\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/CDT08 - RF04 - cadastrar restaurante', new TestCaseBinding('Test Cases/CDT08 - RF04 - cadastrar restaurante',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/CDT10 - RF07 - cadastrar Categorias de pratos', new TestCaseBinding('Test Cases/CDT10 - RF07 - cadastrar Categorias de pratos',[:]), FailureHandling.STOP_ON_FAILURE , false)
     
