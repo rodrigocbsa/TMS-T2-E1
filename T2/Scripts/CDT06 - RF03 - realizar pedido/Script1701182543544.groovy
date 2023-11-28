@@ -24,7 +24,7 @@ WebUI.click(findTestObject('Object Repository/CDT06 - CDT07/Page_PizzaWeb/a_Entr
 
 WebUI.callTestCase(findTestCase('CDT02 - login simple'), [('usuario') : 'marco', ('senha') : 'marco'], FailureHandling.CONTINUE_ON_FAILURE)
 
-//RF2CDT01 - Escolher pedido com remoção de item e verificação de valor correto
+//RF3CDT01 - Escolher pedido com remoção de item e verificação de valor correto
 WebUI.click(findTestObject('Object Repository/CDT06 - CDT07/Page_PizzaWeb/a_California'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/CDT06 - CDT07/Page_PizzaWeb/input_Mdia_tamanhos'), FailureHandling.CONTINUE_ON_FAILURE)

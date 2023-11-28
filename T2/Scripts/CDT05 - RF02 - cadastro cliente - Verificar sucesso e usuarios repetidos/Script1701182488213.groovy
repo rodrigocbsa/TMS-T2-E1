@@ -23,7 +23,7 @@ WebUI.navigateToUrl('http://localhost/pizzaWeb2.0/site/index.php', FailureHandli
 
 WebUI.click(findTestObject('Object Repository/CDT03 - CDT04 - CDT05/Page_PizzaWeb/a_Cadastre-se'), FailureHandling.CONTINUE_ON_FAILURE)
 
-//RF1CDT04 - Realização de cadastro com sucesso
+//RF2CDT04 - Realização de cadastro com sucesso
 WebUI.callTestCase(findTestCase('CDT03 - cadastro simples'), [('nome') : 'teste', ('email') : 'email@email.com', ('ddd') : '11'
         , ('telefone') : '222222222', ('usuario') : 'teste', ('senha') : 'teste', ('repetir_senha') : 'teste', ('rua') : 'rua '
         , ('numero') : '200', ('bairro') : 'bairro', ('complemento') : 'complemento', ('cidade') : 'Rio de Janeiro', ('uf') : 'MG'], 
@@ -42,7 +42,7 @@ WebUI.click(findTestObject('Object Repository/CDT03 - CDT04 - CDT05/Page_PizzaWe
 
 WebUI.click(findTestObject('Object Repository/CDT03 - CDT04 - CDT05/Page_PizzaWeb/a_Cadastre-se'), FailureHandling.CONTINUE_ON_FAILURE)
 
-//RF1CDT05 - Realização de cadastro com nome de usuário já existente
+//RF2CDT05 - Realização de cadastro com nome de usuário já existente
 WebUI.callTestCase(findTestCase('CDT03 - cadastro simples'), [('nome') : 'marco', ('email') : 'teste@gmail.com', ('ddd') : '11'
         , ('telefone') : '222222222', ('usuario') : 'marco', ('senha') : 'teste', ('repetir_senha') : 'teste', ('rua') : 'rua '
         , ('numero') : '200', ('bairro') : 'bairro', ('complemento') : 'complemento', ('cidade') : 'Rio de Janeiro', ('uf') : 'MG'], 

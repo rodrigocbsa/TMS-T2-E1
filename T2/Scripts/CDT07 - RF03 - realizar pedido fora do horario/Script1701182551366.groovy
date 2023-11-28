@@ -21,6 +21,7 @@ WebUI.openBrowser('', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.navigateToUrl('http://localhost/pizzaWeb2.0/site/index.php', FailureHandling.CONTINUE_ON_FAILURE)
 
+//RF3CDT02 - Realizar pedido fora do horário de funcionamento
 WebUI.click(findTestObject('Object Repository/CDT06 - CDT07/Page_PizzaWeb/a_Pizzaria Quadratta'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/CDT06 - CDT07/Page_PizzaWeb/p_Estamos fora do horrio de atendimento'), 

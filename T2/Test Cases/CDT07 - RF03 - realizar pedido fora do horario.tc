@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>CDT06 - RF02 - realizar pedido</name>
+   <name>CDT07 - RF03 - realizar pedido fora do horario</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>31074c44-1d2d-47fc-a02a-7ecf16e87d17</testCaseGuid>
+   <testCaseGuid>bf799e2c-8d19-4429-a5d9-56a469b05b3b</testCaseGuid>
 </TestCaseEntity>

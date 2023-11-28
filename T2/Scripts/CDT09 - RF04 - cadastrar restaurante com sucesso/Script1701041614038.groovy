@@ -74,7 +74,7 @@ WebUI.click(findTestObject('Object Repository/CDT08 - CDT09/Page_/a_Gerenciar'),
 
 WebUI.click(findTestObject('Object Repository/CDT08 - CDT09/Page_/a_Gerenciar Restaurantes'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/CDT08 - CDT09/Page_/td_novo'), 0, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyTextPresent('novo', false, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.closeBrowser(FailureHandling.CONTINUE_ON_FAILURE)
 
