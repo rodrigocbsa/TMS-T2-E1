@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CDT07 - RF02 - realizar pedido fora do horario</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bf799e2c-8d19-4429-a5d9-56a469b05b3b</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Red Tomato Pizza</name>
+   <tag></tag>
+   <elementGuidId>e7b28abc-9750-4173-8306-b1534d54329d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>7d1d0078-f085-492c-9031-42c419d20173</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>list-group-item list-group-item-action</value>
+      <webElementGuid>88424abe-b262-40a3-aa78-1c5a5c6e2a35</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>index.php?p=5</value>
+      <webElementGuid>8e3b2cbd-7da1-4fcb-9d55-15b31c62ab9f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Red Tomato Pizza</value>
+      <webElementGuid>79bee235-5352-4b2d-a642-d305b5d8ad74</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;divListaPizzarias&quot;)/ul[@class=&quot;list-group list-group-flush&quot;]/a[@class=&quot;list-group-item list-group-item-action&quot;]</value>
+      <webElementGuid>4012a00c-750c-4e01-8932-7a8cda82884b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='divListaPizzarias']/ul/a[5]</value>
+      <webElementGuid>7082ab5d-b5e0-495e-b88b-d4002b0386cc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Red Tomato Pizza')]</value>
+      <webElementGuid>b53c4330-c9ed-433b-baa2-f0d21d1fbfa8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Prediletta'])[1]/following::a[1]</value>
+      <webElementGuid>edf9fda2-c7d2-42e8-bd60-b51a3279f081</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bonna Pizza'])[1]/following::a[2]</value>
+      <webElementGuid>84ee34a9-3368-4ccc-8eb5-9807e5e70568</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pizzaria Quadratta'])[1]/preceding::a[1]</value>
+      <webElementGuid>7c4ed144-fe8c-4fa4-b401-40446564785d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Yakisoba Express'])[1]/preceding::a[2]</value>
+      <webElementGuid>bbdfa431-5eac-42f4-b20c-489f5d5419f4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Red Tomato Pizza']/parent::*</value>
+      <webElementGuid>0f19d12b-78f2-4292-b824-49d0d3b59685</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'index.php?p=5')]</value>
+      <webElementGuid>02c3fba8-6666-407a-a1bf-6a9775d9bfe6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ul/a[5]</value>
+      <webElementGuid>a3799317-8416-4ec3-af25-591796e0d56b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'index.php?p=5' and (text() = 'Red Tomato Pizza' or . = 'Red Tomato Pizza')]</value>
+      <webElementGuid>957d493f-6914-4b6e-b9d7-c931d80f1271</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

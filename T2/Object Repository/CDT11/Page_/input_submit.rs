@@ -6,19 +6,19 @@
    <elementGuidId>fa3be1cb-8304-4b26-b6a9-ac37322b224a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>id(&quot;restauranteCardapio&quot;)/form[1]/p[1]/input[1]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>input[type=&quot;submit&quot;]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;restauranteCardapio&quot;)/form[1]/p[1]/input[1]</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@value='Avançar']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -26,15 +26,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>bc273512-8ad7-464c-9ca1-167fa6673005</webElementGuid>
+      <webElementGuid>5cf5f628-d2ae-426a-b720-f17a2b17b6e2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>c0f461b5-44a8-4e3f-b2c5-f3c741109bcb</webElementGuid>
+      <webElementGuid>a81358a2-5c33-436d-90d8-8584235321a4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>value</name>
       <type>Main</type>
       <value>Avançar</value>
-      <webElementGuid>cdb157e6-560e-4088-b451-936f21f62d59</webElementGuid>
+      <webElementGuid>c6d35b44-ee94-449f-a31b-b17cdc5bfa28</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,15 +50,15 @@
       <name>align</name>
       <type>Main</type>
       <value>middle</value>
-      <webElementGuid>8d856f31-435e-4a9d-9a1a-ffa6fa3657dc</webElementGuid>
+      <webElementGuid>91d7969d-821e-489b-a6f5-9352fb45610c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;restauranteCardapio&quot;)/form[1]/p[1]/input[1]</value>
-      <webElementGuid>0095ffbb-9dac-4c95-80d1-3fd4dfd7c4ba</webElementGuid>
+      <value>id(&quot;doisSabores&quot;)/form[1]/table[1]/tbody[1]/tr[4]/td[1]/p[1]/input[1]</value>
+      <webElementGuid>28244c74-e835-4a7c-90c4-7d5b95f29a1c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -66,7 +66,31 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@value='Avançar']</value>
-      <webElementGuid>e0541765-1706-478d-8bd6-34ba5fb6632f</webElementGuid>
+      <webElementGuid>85ff8965-fc21-40cc-9f57-a92561653240</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='doisSabores']/form/table/tbody/tr[4]/td/p/input</value>
+      <webElementGuid>8fa24ffc-4997-476e-884c-5cc39f6f1d66</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//input</value>
+      <webElementGuid>17a528ef-2536-42d6-b13a-13a133a4152b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'submit']</value>
+      <webElementGuid>64efd1aa-9c9d-438f-a853-64bea437443f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -83,13 +107,5 @@
       <type>Main</type>
       <value>//p/input</value>
       <webElementGuid>51200aa9-aae7-4233-9812-9e279b46df06</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//input[@type = 'submit']</value>
-      <webElementGuid>5ffed73d-f23d-4c4e-9105-a505d3a3afc7</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

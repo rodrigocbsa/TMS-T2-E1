@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Montar pizza com dois sabores</name>
+   <tag></tag>
+   <elementGuidId>fcf2cf0c-94b0-4e79-af90-296a28295699</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>td > a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='tabelaCardapio']/tbody/tr[8]/td/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>8d931aae-1c0c-4ef5-a2b5-e601875b8d2f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>pizzaDoisSabores.php?p=2</value>
+      <webElementGuid>85822fa5-83bb-4f71-8e7f-38aded12bf9b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Montar pizza com dois sabores</value>
+      <webElementGuid>b09b67a7-40fa-4e35-b69f-97c58c747bae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;formularioAdicionarCarrinho&quot;)/table[@id=&quot;tabelaCardapio&quot;]/tbody[1]/tr[8]/td[1]/a[1]</value>
+      <webElementGuid>40ffdec7-438e-454e-a831-e5a424325e33</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='tabelaCardapio']/tbody/tr[8]/td/a</value>
+      <webElementGuid>c29fcc26-756f-456c-8c82-693bcf2f2043</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Montar pizza com dois sabores')]</value>
+      <webElementGuid>3258793d-bb6f-454b-be65-75929a450ac4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bebida'])[1]/preceding::a[1]</value>
+      <webElementGuid>c66b7a6b-fb3f-4b5e-9d12-713c23f0e9a2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Opção'])[2]/preceding::a[1]</value>
+      <webElementGuid>40a4ab08-6cde-4e75-b6e0-fceb7b6e3d80</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Montar pizza com dois sabores']/parent::*</value>
+      <webElementGuid>96d57e87-e219-4435-a63f-b28401d2febd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'pizzaDoisSabores.php?p=2')]</value>
+      <webElementGuid>9e65b6dd-c970-4c8f-b683-202f9e9078bd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td/a</value>
+      <webElementGuid>e1a51e50-5903-421e-918d-7cc2bbd84cc7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'pizzaDoisSabores.php?p=2' and (text() = 'Montar pizza com dois sabores' or . = 'Montar pizza com dois sabores')]</value>
+      <webElementGuid>b981daa2-43e4-4f5e-ae62-12525fcfbd9f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

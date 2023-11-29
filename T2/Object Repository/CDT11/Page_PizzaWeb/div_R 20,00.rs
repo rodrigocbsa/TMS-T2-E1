@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_R 20,00</name>
+   <tag></tag>
+   <elementGuidId>059797c3-d82a-4b0b-b490-aca5152428d6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//div[@id='divPrecos'])[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>6d9b32e9-4618-4ab9-8833-c73496093d8e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>divPrecos</value>
+      <webElementGuid>ce8bb685-0057-43a2-b609-35d4dd974e2e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+    	   R$ 20,00        </value>
+      <webElementGuid>d69c3b1c-d867-4933-b746-eb62fc0f7ebf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;formularioAdicionarCarrinho&quot;)/table[@id=&quot;tabelaCardapio&quot;]/tbody[1]/tr[3]/td[2]/div[@id=&quot;checkTamanhoPrato&quot;]/div[1]/div[@id=&quot;divPrecos&quot;]</value>
+      <webElementGuid>58443cce-3c5d-4da4-9889-7b534f5d73df</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//div[@id='divPrecos'])[3]</value>
+      <webElementGuid>ace10dbe-e766-427b-8c1d-fd844c998199</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>(//div[@id='checkTamanhoPrato']/div/div)[3]</value>
+      <webElementGuid>fb733baa-2556-419d-901f-128ec040b3e9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Chocolate com granulado'])[1]/preceding::div[7]</value>
+      <webElementGuid>c613a8a7-fb6b-430b-8cca-0bd729f9814c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div</value>
+      <webElementGuid>f849f9a6-62c1-48cb-baa2-a0c884a545c6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'divPrecos' and (text() = '
+    	   R$ 20,00        ' or . = '
+    	   R$ 20,00        ')]</value>
+      <webElementGuid>f9d74bff-1d25-4444-8dee-72480f21f8e6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

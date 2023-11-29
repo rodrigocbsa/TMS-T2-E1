@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Cadastro de pizzas com dois sabores</name>
+   <tag></tag>
+   <elementGuidId>385feb3b-817b-4d88-a129-35b7be897c54</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>p:nth-of-type(6) > a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='principalAdministrador']/p[6]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>36a8f5cc-885f-4400-8fa8-48d466c82837</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>cadastroPizzaDoisSabores.php</value>
+      <webElementGuid>93a62e6f-9011-4afc-95af-67b4bb8c6ae2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Cadastro de pizzas com dois sabores</value>
+      <webElementGuid>1bc91aca-7593-4389-890a-b8d29d4fad58</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;principalAdministrador&quot;)/p[6]/a[1]</value>
+      <webElementGuid>3b3ccdeb-bc6a-457f-bf25-6e077106ffc3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='principalAdministrador']/p[6]/a</value>
+      <webElementGuid>95300b02-1645-47b1-bb09-4fa96b9019f5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Cadastro de pizzas com dois sabores')]</value>
+      <webElementGuid>606ebc37-3d97-4402-9e7a-189b18e7963a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Gerenciar Pratos'])[1]/following::a[1]</value>
+      <webElementGuid>508554d9-8f0b-439f-8b24-06d6fc0ff122</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cadastro de Cardápios'])[1]/following::a[2]</value>
+      <webElementGuid>55a54c26-9800-43d5-bcef-a6d659c536b0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cadastro de extras'])[1]/preceding::a[1]</value>
+      <webElementGuid>60c43a28-12bd-46a3-92b8-7dc485ab9883</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Gerenciar Extras'])[1]/preceding::a[2]</value>
+      <webElementGuid>4b1abaf5-4677-4e33-8247-3d9cf93efbee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Cadastro de pizzas com dois sabores']/parent::*</value>
+      <webElementGuid>0397f306-01b2-4d9c-a79b-7d71930d31ff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'cadastroPizzaDoisSabores.php')]</value>
+      <webElementGuid>4c61a206-651d-432f-8e1d-8356addb3459</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p[6]/a</value>
+      <webElementGuid>0fcba7bf-b11e-4b8d-acc2-df78f4e55104</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'cadastroPizzaDoisSabores.php' and (text() = 'Cadastro de pizzas com dois sabores' or . = 'Cadastro de pizzas com dois sabores')]</value>
+      <webElementGuid>77f95ee8-6e62-46a5-804e-8d77e5a48430</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

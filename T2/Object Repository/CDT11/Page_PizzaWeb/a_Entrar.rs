@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>3bf28b03-a68b-4e9f-88f1-af344a436121</webElementGuid>
+      <webElementGuid>369df6d2-c231-4d9e-a9f0-1f7231344e3d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-outline-success</value>
-      <webElementGuid>72c85669-6468-458b-b3b2-d20596aca8c3</webElementGuid>
+      <webElementGuid>04eeda68-b692-43ee-838e-9fe2b8dd3426</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>href</name>
       <type>Main</type>
       <value>login.php</value>
-      <webElementGuid>c27aa0ae-91e2-42dc-8bb3-de2b6a31a843</webElementGuid>
+      <webElementGuid>a023cb4a-8c27-4caf-bae9-f993d003c2fa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Entrar</value>
-      <webElementGuid>463c0de2-7358-4d74-bca7-f55c4fc27078</webElementGuid>
+      <webElementGuid>a4395ae8-87d4-4c90-928f-ba9b2d505a41</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/nav[@class=&quot;navbar navbar-expand-lg navbar-light bg-light&quot;]/a[@class=&quot;btn btn-outline-success&quot;]</value>
-      <webElementGuid>00dbe6c1-d6f8-4e89-8965-599c0c347d84</webElementGuid>
+      <webElementGuid>e45161c6-b15c-486e-9623-df15861b8ada</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Entrar')]</value>
-      <webElementGuid>adfab5e8-9976-48a3-8b60-5d9520d7e3dc</webElementGuid>
+      <webElementGuid>f5aaac1d-fe96-484c-a877-57826215f2f2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cadastre-se'])[1]/following::a[1]</value>
-      <webElementGuid>5a7615da-ce82-4704-8deb-7a5b82f073d5</webElementGuid>
+      <webElementGuid>adc46243-4a21-46ef-a173-b5dc75dabe6b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Olá, visitante!'])[1]/following::a[2]</value>
-      <webElementGuid>246423d3-426b-49c6-a4ad-cc51f19d8c49</webElementGuid>
+      <webElementGuid>c487ac64-313c-409c-b214-7d0722d3493f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Restaurantes'])[1]/preceding::a[1]</value>
-      <webElementGuid>291c329b-0217-4b88-af7b-69bf6492ed4f</webElementGuid>
+      <webElementGuid>44a2c8bd-3735-4620-b869-0fbd157c99d0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Papillon'])[1]/preceding::a[1]</value>
-      <webElementGuid>de0896c6-a7dc-4271-a093-7ce97d7b8361</webElementGuid>
+      <webElementGuid>82b1e289-bbcd-4d4e-a5a0-7b8b7e2b0b0b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Entrar']/parent::*</value>
-      <webElementGuid>f2c65651-f238-4148-b435-98b5193342b8</webElementGuid>
+      <webElementGuid>e866382e-7e99-4329-8582-7e39864f8bfe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'login.php')]</value>
-      <webElementGuid>cd7ad847-b7c0-4a79-8e15-b77bef34a04d</webElementGuid>
+      <webElementGuid>a8cb3fb6-e5f8-414e-88a9-585d8a70d1ac</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a[4]</value>
-      <webElementGuid>f701b5ba-2507-40b7-b9bd-77c5b2bf5ede</webElementGuid>
+      <webElementGuid>72ceedcc-03a2-41f2-8ef4-67d047db437b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +126,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = 'login.php' and (text() = 'Entrar' or . = 'Entrar')]</value>
-      <webElementGuid>e42427d3-d272-4b63-8d0d-467f26c2c7f3</webElementGuid>
+      <webElementGuid>f677cd40-dbe3-4a62-898a-395964f18d8f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

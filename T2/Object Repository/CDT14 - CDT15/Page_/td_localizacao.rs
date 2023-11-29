@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_localizacao</name>
+   <tag></tag>
+   <elementGuidId>b8b0a9e6-bae7-4ffb-a722-9b17364ac1c3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>tr:nth-of-type(2) > td:nth-of-type(3)</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='principal']/table/tbody/tr[2]/td[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>4e77ac75-61cc-4f76-bf69-3a5f4ce96206</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>align</name>
+      <type>Main</type>
+      <value>justify</value>
+      <webElementGuid>afcc4dbd-a820-436e-bf04-c7944194f9ad</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Rua General Osório - no.10 - Centro - Nova Friburgo - RJ</value>
+      <webElementGuid>a0643f9d-4970-4643-ac52-aad926587d8b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;principal&quot;)/table[1]/tbody[1]/tr[2]/td[3]</value>
+      <webElementGuid>dce90e80-2475-473f-9ce9-a9d9e674a30d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='principal']/table/tbody/tr[2]/td[3]</value>
+      <webElementGuid>20700b3b-8821-4edb-8ec8-7724135ab4b7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='(22)2522-1111'])[1]/following::td[1]</value>
+      <webElementGuid>7cd49611-0e84-4790-b9f4-78b7d42986f7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Papillon'])[1]/following::td[2]</value>
+      <webElementGuid>56378b94-f4bb-4322-ba31-81528a4aea70</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='De Sexta a Quarta'])[1]/preceding::td[3]</value>
+      <webElementGuid>387997cd-c9d3-4f06-9b64-8edab689c9c6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='California'])[1]/preceding::td[5]</value>
+      <webElementGuid>86df5141-6718-4b60-a0f1-91d74aa3e5e4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Rua General Osório - no.10 - Centro - Nova Friburgo - RJ']/parent::*</value>
+      <webElementGuid>77598382-6039-4b7e-877b-9200da2c3579</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[2]/td[3]</value>
+      <webElementGuid>a2fc81f5-0184-449f-bdc4-0c2399bde43e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'Rua General Osório - no.10 - Centro - Nova Friburgo - RJ' or . = 'Rua General Osório - no.10 - Centro - Nova Friburgo - RJ')]</value>
+      <webElementGuid>61cca974-c775-47a2-88f4-8f49bfecda08</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

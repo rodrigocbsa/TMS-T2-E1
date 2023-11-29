@@ -1,0 +1,262 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Teste de Integração,Chrome 119.0.0.0,,,2023-11-29 12:47:44,2023-11-29 12:53:46,"6m - 1,942s",FAILED
+,,,,,,,
+Test Cases/CDT01- RF01 - login cliente - Verificar login incorreto e correto,Chrome 119.0.0.0,,,2023-11-29 12:47:44,2023-11-29 12:48:01,"16,417s",PASSED
+"openBrowser(""http://localhost/pizzaWeb2.0/site/index.php"", CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:47:45,2023-11-29 12:47:51,"6,307s",PASSED
+"click(findTestObject(""Object Repository/CDT01 - CDT02/Page_PizzaWeb/a_Entrar""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:47:51,2023-11-29 12:47:52,"0,892s",PASSED
+"callTestCase(findTestCase(""CDT02 - login simple""), [""usuario"":""marco"", ""senha"":""senhaInvalida""], CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:47:52,2023-11-29 12:47:56,"3,462s",PASSED
+"verifyElementText(findTestObject(""CDT01 - CDT02/Page_/div_msg_Usurio_ou_senha_invalidos""), ""Usuário ou senha inválidos."", CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:47:56,2023-11-29 12:47:56,"0,501s",PASSED
+"click(findTestObject(""Object Repository/CDT01 - CDT02/Page_/button_OK""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:47:56,2023-11-29 12:47:57,"0,593s",PASSED
+"callTestCase(findTestCase(""CDT02 - login simple""), [""usuario"":""marco"", ""senha"":""marco""], CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:47:57,2023-11-29 12:47:59,"2,635s",PASSED
+"verifyElementText(findTestObject(""Object Repository/CDT01 - CDT02/Page_PizzaWeb/a_Ol, Usuario""), ""Olá, Marco!"", CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:47:59,2023-11-29 12:48:00,"0,491s",PASSED
+closeBrowser(CONTINUE_ON_FAILURE),Chrome 119.0.0.0,,,2023-11-29 12:48:00,2023-11-29 12:48:01,"0,851s",PASSED
+,,,,,,,
+Test Cases/CDT02 - login simple,Chrome 119.0.0.0,,,2023-11-29 12:48:01,2023-11-29 12:48:01,"0,542s",FAILED
+"setText(findTestObject(""Object Repository/CDT01 - CDT02/Page_Login/input_Entrar_login""), usuario, CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:48:01,2023-11-29 12:48:01,"0,105s",FAILED
+"setText(findTestObject(""Object Repository/CDT01 - CDT02/Page_Login/input_Entrar_senha""), senha, CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:48:01,2023-11-29 12:48:01,"0,110s",FAILED
+"click(findTestObject(""Object Repository/CDT01 - CDT02/Page_Login/button_Login""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:48:01,2023-11-29 12:48:01,"0,092s",FAILED
+,,,,,,,
+Test Cases/CDT03 - cadastro simples,Chrome 119.0.0.0,,,2023-11-29 12:48:01,2023-11-29 12:48:04,"2,666s",FAILED
+"setText(findTestObject(""Object Repository/CDT03 - CDT04 - CDT05/Page_/input_Nome_nomeCadastro""), nome, CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:48:02,2023-11-29 12:48:02,"0,157s",FAILED
+"setText(findTestObject(""Object Repository/CDT03 - CDT04 - CDT05/Page_/input_E-mail_emailCadastro""), email, CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:48:02,2023-11-29 12:48:02,"0,136s",FAILED
+"setText(findTestObject(""Object Repository/CDT03 - CDT04 - CDT05/Page_/input_DDD_dddTelCadastro""), ddd, CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:48:02,2023-11-29 12:48:02,"0,188s",FAILED
+"setText(findTestObject(""Object Repository/CDT03 - CDT04 - CDT05/Page_/input_Telefone_telCadastro""), telefone, CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:48:02,2023-11-29 12:48:03,"0,144s",FAILED
+"setText(findTestObject(""Object Repository/CDT03 - CDT04 - CDT05/Page_/input_Usurio_loginCadastro""), usuario, CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:48:03,2023-11-29 12:48:03,"0,170s",FAILED
+"setText(findTestObject(""Object Repository/CDT03 - CDT04 - CDT05/Page_/input_Senha_senhaCadastro""), senha, CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:48:03,2023-11-29 12:48:03,"0,137s",FAILED
+"setText(findTestObject(""Object Repository/CDT03 - CDT04 - CDT05/Page_/input_Repetir a senha_form-control""), repetir_senha, CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:48:03,2023-11-29 12:48:03,"0,083s",FAILED
+"setText(findTestObject(""Object Repository/CDT03 - CDT04 - CDT05/Page_/input_RuaAv_ruaCadastro""), rua, CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:48:03,2023-11-29 12:48:03,"0,128s",FAILED
+"setText(findTestObject(""Object Repository/CDT03 - CDT04 - CDT05/Page_/input_Nmero_numeroCadastro""), numero, CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:48:03,2023-11-29 12:48:03,"0,114s",FAILED
+"setText(findTestObject(""Object Repository/CDT03 - CDT04 - CDT05/Page_/input_Bairro_bairroCadastro""), bairro, CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:48:03,2023-11-29 12:48:03,"0,106s",FAILED
+"setText(findTestObject(""Object Repository/CDT03 - CDT04 - CDT05/Page_/input_Complemento_complementoCadastro""), complemento, CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:48:03,2023-11-29 12:48:03,"0,102s",FAILED
+"setText(findTestObject(""Object Repository/CDT03 - CDT04 - CDT05/Page_/input_Cidade_cidadeCadastro""), cidade, CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:48:03,2023-11-29 12:48:04,"0,148s",FAILED
+"selectOptionByValue(findTestObject(""Object Repository/CDT03 - CDT04 - CDT05/Page_/select_ALAPAMBACEDFESGOMAMTMSMGPAPBPRPEPIRR_4d941d""), uf, true, CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:48:04,2023-11-29 12:48:04,"0,281s",FAILED
+,,,,,,,
+Test Cases/CDT04 - RF01 - cadastro cliente - Verificar erros de preenchimento,Chrome 119.0.0.0,,,2023-11-29 12:48:04,2023-11-29 12:48:52,"47,995s",FAILED
+"openBrowser("""", CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:48:05,2023-11-29 12:48:06,"1,703s",PASSED
+"navigateToUrl(""http://localhost/pizzaWeb2.0/site/index.php"", CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:48:06,2023-11-29 12:48:08,"1,863s",PASSED
+"click(findTestObject(""Object Repository/CDT03 - CDT04 - CDT05/Page_PizzaWeb/a_Cadastre-se""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:48:08,2023-11-29 12:48:09,"1,047s",PASSED
+"callTestCase(findTestCase(""CDT03 - cadastro simples""), [""nome"":""teste"", ""email"":"""", ""ddd"":""11"", ""telefone"":""222222222"", ""usuario"":"""", ""senha"":""teste"", ""repetir_senha"":""teste"", ""rua"":""rua "", ... ], CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:48:09,2023-11-29 12:48:22,"12,651s",PASSED
+"click(findTestObject(""Object Repository/CDT03 - CDT04 - CDT05/Page_/button_Cadastrar""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:48:22,2023-11-29 12:48:22,"0,537s",PASSED
+"verifyTextPresent(""Cadastro"", false, CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:48:22,2023-11-29 12:48:23,"0,372s",PASSED
+"callTestCase(findTestCase(""CDT03 - cadastro simples""), [""nome"":""teste"", ""email"":""email@email.com"", ""ddd"":""11"", ""telefone"":""222222222"", ""usuario"":""admin"", ""senha"":""teste"", ""repetir_senha"":""teste"", ... ], CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:48:23,2023-11-29 12:48:35,"12,632s",PASSED
+"click(findTestObject(""Object Repository/CDT03 - CDT04 - CDT05/Page_/button_Cadastrar""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:48:35,2023-11-29 12:48:36,"0,701s",PASSED
+"verifyTextPresent(""Nome de usuário reservado!"", false, CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:48:36,2023-11-29 12:48:37,"0,484s",PASSED
+"click(findTestObject(""Object Repository/CDT03 - CDT04 - CDT05/Page_/button_OK""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:48:37,2023-11-29 12:48:37,"0,609s",PASSED
+"callTestCase(findTestCase(""CDT03 - cadastro simples""), [""nome"":""teste"", ""email"":""teste@gmail.com"", ""ddd"":""11"", ""telefone"":""222222222"", ""usuario"":""teste"", ""senha"":""teste"", ""repetir_senha"":""diferente"", ... ], CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:48:37,2023-11-29 12:48:50,"12,648s",PASSED
+"click(findTestObject(""Object Repository/CDT03 - CDT04 - CDT05/Page_/button_Cadastrar""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:48:50,2023-11-29 12:48:50,"0,564s",PASSED
+"verifyTextPresent(""Cadastro"", false, CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:48:50,2023-11-29 12:48:51,"0,623s",FAILED
+closeBrowser(CONTINUE_ON_FAILURE),Chrome 119.0.0.0,,,2023-11-29 12:48:51,2023-11-29 12:48:52,"0,877s",PASSED
+,,,,,,,
+Test Cases/CDT05 - RF01 - cadastro cliente - Verificar sucesso e usuarios repetidos,Chrome 119.0.0.0,,,2023-11-29 12:48:52,2023-11-29 12:49:34,"41,811s",FAILED
+"openBrowser("""", CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:48:52,2023-11-29 12:48:54,"1,847s",PASSED
+"navigateToUrl(""http://localhost/pizzaWeb2.0/site/index.php"", CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:48:54,2023-11-29 12:48:56,"1,840s",PASSED
+"click(findTestObject(""Object Repository/CDT03 - CDT04 - CDT05/Page_PizzaWeb/a_Cadastre-se""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:48:56,2023-11-29 12:48:59,"2,480s",PASSED
+"callTestCase(findTestCase(""CDT03 - cadastro simples""), [""nome"":""teste"", ""email"":""email@email.com"", ""ddd"":""11"", ""telefone"":""222222222"", ""usuario"":""teste"", ""senha"":""teste"", ""repetir_senha"":""teste"", ... ], CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:48:59,2023-11-29 12:49:12,"12,922s",PASSED
+"click(findTestObject(""Object Repository/CDT03 - CDT04 - CDT05/Page_/button_Cadastrar""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:49:12,2023-11-29 12:49:12,"0,591s",PASSED
+"verifyTextPresent(""Cadastrado com Sucesso!"", false, CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:49:12,2023-11-29 12:49:13,"0,631s",PASSED
+"click(findTestObject(""Object Repository/CDT03 - CDT04 - CDT05/Page_/button_OK""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:49:13,2023-11-29 12:49:13,"0,664s",PASSED
+"verifyElementText(findTestObject(""CDT03 - CDT04 - CDT05/Page_PizzaWeb/a_ola_usuario""), ""Olá, teste!"", CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:49:13,2023-11-29 12:49:14,"0,468s",PASSED
+"click(findTestObject(""Object Repository/CDT03 - CDT04 - CDT05/Page_PizzaWeb/a_Sair""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:49:14,2023-11-29 12:49:15,"0,684s",PASSED
+"click(findTestObject(""Object Repository/CDT03 - CDT04 - CDT05/Page_PizzaWeb/a_Cadastre-se""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:49:15,2023-11-29 12:49:15,"0,632s",PASSED
+"callTestCase(findTestCase(""CDT03 - cadastro simples""), [""nome"":""marco"", ""email"":""teste@gmail.com"", ""ddd"":""11"", ""telefone"":""222222222"", ""usuario"":""marco"", ""senha"":""teste"", ""repetir_senha"":""teste"", ... ], CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:49:15,2023-11-29 12:49:29,"13,353s",PASSED
+"click(findTestObject(""Object Repository/CDT03 - CDT04 - CDT05/Page_/button_Cadastrar""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:49:29,2023-11-29 12:49:30,"1,113s",PASSED
+"verifyTextPresent(""Cadastro"", false, CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:49:30,2023-11-29 12:49:30,"0,463s",FAILED
+closeBrowser(CONTINUE_ON_FAILURE),Chrome 119.0.0.0,,,2023-11-29 12:49:30,2023-11-29 12:49:34,"3,557s",PASSED
+,,,,,,,
+Test Cases/CDT06 - RF02 - realizar pedido,Chrome 119.0.0.0,,,2023-11-29 12:49:34,2023-11-29 12:49:54,"20,726s",PASSED
+"openBrowser(""http://localhost/pizzaWeb2.0/site/index.php"", CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:49:34,2023-11-29 12:49:40,"5,132s",PASSED
+"click(findTestObject(""Object Repository/CDT06 - CDT07/Page_PizzaWeb/a_Entrar""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:49:40,2023-11-29 12:49:40,"0,898s",PASSED
+"callTestCase(findTestCase(""CDT02 - login simple""), [""usuario"":""marco"", ""senha"":""marco""], CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:49:40,2023-11-29 12:49:43,"2,711s",PASSED
+"click(findTestObject(""Object Repository/CDT06 - CDT07/Page_PizzaWeb/a_California""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:49:43,2023-11-29 12:49:44,"0,764s",PASSED
+"click(findTestObject(""Object Repository/CDT06 - CDT07/Page_PizzaWeb/input_Mdia_tamanhos""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:49:44,2023-11-29 12:49:45,"0,595s",PASSED
+"click(findTestObject(""Object Repository/CDT06 - CDT07/Page_PizzaWeb/input_Mdia_tamanhos_1""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:49:45,2023-11-29 12:49:45,"0,509s",PASSED
+"click(findTestObject(""Object Repository/CDT06 - CDT07/Page_PizzaWeb/input_Mdia_tamanhos_1_2""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:49:45,2023-11-29 12:49:46,"0,517s",PASSED
+"click(findTestObject(""Object Repository/CDT06 - CDT07/Page_PizzaWeb/input_R 4,00_enviar""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:49:46,2023-11-29 12:49:46,"0,556s",PASSED
+"verifyElementText(findTestObject(""Object Repository/CDT06 - CDT07/Page_PizzaWeb/b_R 37,00""), ""R$ 37,00"", CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:49:46,2023-11-29 12:49:47,"0,857s",PASSED
+"click(findTestObject(""Object Repository/CDT06 - CDT07/Page_PizzaWeb/a_Remover Item""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:49:47,2023-11-29 12:49:48,"0,724s",PASSED
+"verifyElementNotPresent(findTestObject(""Object Repository/CDT06 - CDT07/Page_PizzaWeb/td_Calabresa  Mdia""), 0, CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:49:48,2023-11-29 12:49:49,"0,966s",PASSED
+"verifyElementText(findTestObject(""Object Repository/CDT06 - CDT07/Page_PizzaWeb/b_R 27,00""), ""R$ 27,00"", CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:49:49,2023-11-29 12:49:49,"0,496s",PASSED
+"click(findTestObject(""Object Repository/CDT06 - CDT07/Page_PizzaWeb/a_Confirmar Pedido""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:49:49,2023-11-29 12:49:50,"0,656s",PASSED
+"click(findTestObject(""CDT06 - CDT07/Page_/input_finalizar_pedido""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:49:50,2023-11-29 12:49:50,"0,546s",PASSED
+"click(findTestObject(""Object Repository/CDT06 - CDT07/Page_/input_R 0,00_btn btn-outline-success""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:49:50,2023-11-29 12:49:51,"0,706s",PASSED
+"verifyElementText(findTestObject(""Object Repository/CDT06 - CDT07/Page_/h2_R 27,00""), ""R$ 27,00"", CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:49:51,2023-11-29 12:49:52,"0,511s",PASSED
+"click(findTestObject(""CDT06 - CDT07/Page_/input_CartoDinheiro na entrega_btn btn-success""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:49:52,2023-11-29 12:49:52,"0,669s",PASSED
+"verifyElementText(findTestObject(""Object Repository/CDT06 - CDT07/Page_/div_Pedido realizado com Sucesso""), ""Pedido realizado com Sucesso!"", CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:49:52,2023-11-29 12:49:53,"0,524s",PASSED
+"click(findTestObject(""Object Repository/CDT06 - CDT07/Page_/button_OK""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:49:53,2023-11-29 12:49:54,"0,808s",PASSED
+closeBrowser(CONTINUE_ON_FAILURE),Chrome 119.0.0.0,,,2023-11-29 12:49:54,2023-11-29 12:49:54,"0,824s",PASSED
+,,,,,,,
+Test Cases/CDT07 - RF02 - realizar pedido fora do horario,Chrome 119.0.0.0,,,2023-11-29 12:49:54,2023-11-29 12:50:01,"6,632s",PASSED
+"openBrowser("""", CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:49:55,2023-11-29 12:49:57,"1,488s",PASSED
+"navigateToUrl(""http://localhost/pizzaWeb2.0/site/index.php"", CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:49:57,2023-11-29 12:49:58,"1,897s",PASSED
+"click(findTestObject(""Object Repository/CDT06 - CDT07/Page_PizzaWeb/a_Pizzaria Quadratta""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:49:58,2023-11-29 12:49:59,"0,913s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/CDT06 - CDT07/Page_PizzaWeb/p_Estamos fora do horrio de atendimento""), 0, CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:49:59,2023-11-29 12:50:00,"0,470s",PASSED
+"verifyElementText(findTestObject(""Object Repository/CDT06 - CDT07/Page_PizzaWeb/p_Estamos fora do horrio de atendimento""), ""Estamos fora do horário de atendimento!"", CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:50:00,2023-11-29 12:50:00,"0,483s",PASSED
+closeBrowser(CONTINUE_ON_FAILURE),Chrome 119.0.0.0,,,2023-11-29 12:50:00,2023-11-29 12:50:01,"0,740s",PASSED
+,,,,,,,
+Test Cases/CDT08 - RF04 - cadastrar restaurante com campos em branco,Chrome 119.0.0.0,,,2023-11-29 12:50:01,2023-11-29 12:50:28,"27,110s",FAILED
+"openBrowser("""", CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:50:02,2023-11-29 12:50:03,"1,430s",PASSED
+"navigateToUrl(""http://localhost/pizzaWeb2.0/site/index.php"", CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:50:03,2023-11-29 12:50:05,"1,525s",PASSED
+"click(findTestObject(""Object Repository/CDT08 - CDT09/Page_PizzaWeb/a_Entrar""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:50:05,2023-11-29 12:50:06,"0,844s",PASSED
+"callTestCase(findTestCase(""CDT02 - login simple""), [""usuario"":""admin"", ""senha"":""admin""], CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:50:06,2023-11-29 12:50:09,"3,054s",PASSED
+"click(findTestObject(""Object Repository/CDT08 - CDT09/Page_PizzaWeb/a_Gerenciar""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:50:09,2023-11-29 12:50:09,"0,607s",PASSED
+"click(findTestObject(""Object Repository/CDT08 - CDT09/Page_/a_Cadastro de Restaurantes""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:50:09,2023-11-29 12:50:10,"0,677s",PASSED
+"setText(findTestObject(""Object Repository/CDT08 - CDT09/Page_/input_RuaAv_ruaCadastro""), ""rua"", CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:50:10,2023-11-29 12:50:11,"0,999s",PASSED
+"setText(findTestObject(""Object Repository/CDT08 - CDT09/Page_/input_Nmero_numeroCadastro""), ""200"", CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:50:11,2023-11-29 12:50:12,"0,920s",PASSED
+"setText(findTestObject(""Object Repository/CDT08 - CDT09/Page_/input_Complemento_complementoCadastro""), ""complemento"", CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:50:12,2023-11-29 12:50:13,"0,898s",PASSED
+"setText(findTestObject(""Object Repository/CDT08 - CDT09/Page_/input_Bairro_bairroCadastro""), ""bairro"", CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:50:13,2023-11-29 12:50:14,"0,987s",PASSED
+"setText(findTestObject(""Object Repository/CDT08 - CDT09/Page_/input_Cidade_cidadeCadastro""), ""Rio de Janeiro"", CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:50:14,2023-11-29 12:50:15,"1,005s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/CDT08 - CDT09/Page_/select_ALAPAMBACEDFESGOMAMTMSMGPAPBPRPEPIRR_4d941d""), ""AL"", true, CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:50:15,2023-11-29 12:50:17,"2,075s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/CDT08 - CDT09/Page_/select_ALAPAMBACEDFESGOMAMTMSMGPAPBPRPEPIRR_4d941d""), ""RJ"", true, CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:50:17,2023-11-29 12:50:19,"2,331s",PASSED
+"setText(findTestObject(""Object Repository/CDT08 - CDT09/Page_/input_Telefone_dddTelCadastro""), ""22"", CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:50:19,2023-11-29 12:50:20,"0,903s",PASSED
+"setText(findTestObject(""Object Repository/CDT08 - CDT09/Page_/input_Telefone_telCadastro""), ""11111111"", CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:50:20,2023-11-29 12:50:21,"0,886s",PASSED
+"setText(findTestObject(""Object Repository/CDT08 - CDT09/Page_/input_Horrio de Funcionamento_horaInicio""), ""18:00:00"", CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:50:21,2023-11-29 12:50:22,"0,944s",PASSED
+"setText(findTestObject(""Object Repository/CDT08 - CDT09/Page_/input_Horrio de Funcionamento_horaFim""), ""23:59:00"", CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:50:22,2023-11-29 12:50:23,"0,871s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/CDT08 - CDT09/Page_/select_SegundaTeraQuartaQuintaSextaSbadoDomingo""), ""1"", true, CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:50:23,2023-11-29 12:50:24,"1,351s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/CDT08 - CDT09/Page_/select_SegundaTeraQuartaQuintaSextaSbadoDomingo""), ""6"", true, CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:50:24,2023-11-29 12:50:26,"1,539s",PASSED
+"click(findTestObject(""Object Repository/CDT08 - CDT09/Page_/input_submit""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:50:26,2023-11-29 12:50:27,"0,970s",PASSED
+"verifyTextPresent(""(erro|vazio|branco|obrigatorio)"", true, CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:50:27,2023-11-29 12:50:27,"0,586s",FAILED
+closeBrowser(CONTINUE_ON_FAILURE),Chrome 119.0.0.0,,,2023-11-29 12:50:27,2023-11-29 12:50:28,"0,993s",PASSED
+,,,,,,,
+Test Cases/CDT09 - RF04 - cadastrar restaurante com sucesso,Chrome 119.0.0.0,,,2023-11-29 12:50:28,2023-11-29 12:51:31,"1m - 3,262s",FAILED
+"openBrowser("""", CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:50:29,2023-11-29 12:50:31,"1,836s",PASSED
+"navigateToUrl(""http://localhost/pizzaWeb2.0/site/index.php"", CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:50:31,2023-11-29 12:50:34,"2,976s",PASSED
+"click(findTestObject(""Object Repository/CDT08 - CDT09/Page_PizzaWeb/a_Entrar (1)""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:50:34,2023-11-29 12:50:34,"0,869s",PASSED
+"callTestCase(findTestCase(""CDT02 - login simple""), [""usuario"":""admin"", ""senha"":""admin""], CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:50:34,2023-11-29 12:50:37,"2,685s",PASSED
+"click(findTestObject(""Object Repository/CDT08 - CDT09/Page_PizzaWeb/a_Gerenciar (1)""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:50:37,2023-11-29 12:50:38,"0,656s",PASSED
+"click(findTestObject(""Object Repository/CDT08 - CDT09/Page_/a_Cadastro de Restaurantes (1)""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:50:38,2023-11-29 12:50:39,"0,748s",PASSED
+"setText(findTestObject(""Object Repository/CDT08 - CDT09/Page_/input_Nome_nomeCadastro""), ""novo"", CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:50:39,2023-11-29 12:50:40,"0,976s",PASSED
+"setText(findTestObject(""Object Repository/CDT08 - CDT09/Page_/input_RuaAv_ruaCadastro (1)""), ""rua"", CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:50:40,2023-11-29 12:50:41,"1,004s",PASSED
+"setText(findTestObject(""Object Repository/CDT08 - CDT09/Page_/input_Nmero_numeroCadastro (1)""), ""100"", CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:50:41,2023-11-29 12:50:41,"0,928s",PASSED
+"setText(findTestObject(""Object Repository/CDT08 - CDT09/Page_/input_Complemento_complementoCadastro (1)""), ""com"", CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:50:41,2023-11-29 12:50:43,"1,210s",PASSED
+"setText(findTestObject(""Object Repository/CDT08 - CDT09/Page_/input_Bairro_bairroCadastro (1)""), ""bairro"", CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:50:43,2023-11-29 12:50:44,"0,933s",PASSED
+"setText(findTestObject(""Object Repository/CDT08 - CDT09/Page_/input_Cidade_cidadeCadastro (1)""), ""Minas Gerais"", CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:50:44,2023-11-29 12:50:45,"0,872s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/CDT08 - CDT09/Page_/select_ALAPAMBACEDFESGOMAMTMSMGPAPBPRPEPIRR_4d941d (1)""), ""AL"", true, CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:50:45,2023-11-29 12:50:46,"1,788s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/CDT08 - CDT09/Page_/select_ALAPAMBACEDFESGOMAMTMSMGPAPBPRPEPIRR_4d941d (1)""), ""MG"", true, CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:50:46,2023-11-29 12:50:48,"2,111s",PASSED
+"setText(findTestObject(""Object Repository/CDT08 - CDT09/Page_/input_Telefone_dddTelCadastro (1)""), ""00"", CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:50:48,2023-11-29 12:50:49,"0,932s",PASSED
+"setText(findTestObject(""Object Repository/CDT08 - CDT09/Page_/input_Telefone_telCadastro (1)""), ""22222222"", CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:50:49,2023-11-29 12:50:50,"1,003s",PASSED
+"setText(findTestObject(""Object Repository/CDT08 - CDT09/Page_/input_Horrio de Funcionamento_horaInicio (1)""), ""12:00:00"", CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:50:50,2023-11-29 12:50:51,"0,916s",PASSED
+"setText(findTestObject(""Object Repository/CDT08 - CDT09/Page_/input_Horrio de Funcionamento_horaFim (1)""), ""22:00:00"", CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:50:51,2023-11-29 12:50:52,"0,905s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/CDT08 - CDT09/Page_/select_SegundaTeraQuartaQuintaSextaSbadoDomingo (1)""), ""1"", true, CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:50:52,2023-11-29 12:50:54,"1,497s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/CDT08 - CDT09/Page_/select_SegundaTeraQuartaQuintaSextaSbadoDomingo (1)""), ""2"", true, CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:50:54,2023-11-29 12:50:55,"1,513s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/CDT08 - CDT09/Page_/select_SegundaTeraQuartaQuintaSextaSbadoDomingo_1""), ""7"", true, CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:50:55,2023-11-29 12:50:57,"1,565s",PASSED
+"click(findTestObject(""Object Repository/CDT08 - CDT09/Page_/input_submit (1)""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:50:57,2023-11-29 12:50:58,"0,873s",PASSED
+"click(findTestObject(""Object Repository/CDT08 - CDT09/Page_/a_Gerenciar""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:50:58,2023-11-29 12:50:58,"0,801s",PASSED
+"click(findTestObject(""Object Repository/CDT08 - CDT09/Page_/a_Gerenciar Restaurantes""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:50:58,2023-11-29 12:50:59,"0,798s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/CDT08 - CDT09/Page_/td_novo""), 0, CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:50:59,2023-11-29 12:51:31,"31,435s",FAILED
+closeBrowser(CONTINUE_ON_FAILURE),Chrome 119.0.0.0,,,2023-11-29 12:51:31,2023-11-29 12:51:31,"0,837s",PASSED
+,,,,,,,
+Test Cases/CDT10 - RF07 - cadastrar Categorias de pratos,Chrome 119.0.0.0,,,2023-11-29 12:51:31,2023-11-29 12:51:45,"13,916s",PASSED
+"openBrowser("""", CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:51:32,2023-11-29 12:51:34,"1,672s",PASSED
+"navigateToUrl(""http://localhost/pizzaWeb2.0/site/index.php"", CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:51:34,2023-11-29 12:51:37,"2,781s",PASSED
+"click(findTestObject(""Object Repository/CDT10/Page_PizzaWeb/a_Entrar""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:51:37,2023-11-29 12:51:38,"1,088s",PASSED
+"callTestCase(findTestCase(""CDT02 - login simple""), [""usuario"":""admin"", ""senha"":""admin""], CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:51:38,2023-11-29 12:51:40,"2,619s",PASSED
+"click(findTestObject(""Object Repository/CDT10/Page_PizzaWeb/a_Gerenciar""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:51:40,2023-11-29 12:51:41,"0,773s",PASSED
+"click(findTestObject(""Object Repository/CDT10/Page_/a_Cadastro de Categorias de Pratos""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:51:41,2023-11-29 12:51:42,"0,786s",PASSED
+"setText(findTestObject(""Object Repository/CDT10/Page_/input_Nome da Categoria_nomeCategoria""), ""Massas"", CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:51:42,2023-11-29 12:51:43,"0,980s",PASSED
+"click(findTestObject(""Object Repository/CDT10/Page_/input_submit""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:51:43,2023-11-29 12:51:44,"0,673s",PASSED
+"verifyElementText(findTestObject(""Object Repository/CDT10/Page_/div_Cadastrado com Sucesso""), ""Cadastrado com Sucesso!"", CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:51:44,2023-11-29 12:51:44,"0,534s",PASSED
+"click(findTestObject(""Object Repository/CDT10/Page_/button_OK""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:51:44,2023-11-29 12:51:45,"0,620s",PASSED
+closeBrowser(CONTINUE_ON_FAILURE),Chrome 119.0.0.0,,,2023-11-29 12:51:45,2023-11-29 12:51:45,"0,736s",PASSED
+,,,,,,,
+Test Cases/CDT11 - RF09 - Cadastrar cardápio,Chrome 119.0.0.0,,,2023-11-29 12:51:45,2023-11-29 12:52:08,"22,963s",PASSED
+"openBrowser("""", CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:51:46,2023-11-29 12:51:48,"1,578s",PASSED
+"navigateToUrl(""http://localhost/pizzaWeb2.0/site/index.php"", CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:51:48,2023-11-29 12:51:49,"1,484s",PASSED
+"click(findTestObject(""CDT11/Page_PizzaWeb/a_Entrar""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:51:49,2023-11-29 12:51:50,"0,974s",PASSED
+"callTestCase(findTestCase(""CDT02 - login simple""), [""usuario"":""admin"", ""senha"":""admin""], CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:51:50,2023-11-29 12:51:53,"2,763s",PASSED
+"click(findTestObject(""Object Repository/CDT11/Page_PizzaWeb/a_Gerenciar""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:51:53,2023-11-29 12:51:53,"0,652s",PASSED
+"click(findTestObject(""Object Repository/CDT11/Page_/a_Cadastro de Cardpios""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:51:53,2023-11-29 12:51:54,"0,633s",PASSED
+"setText(findTestObject(""Object Repository/CDT11/Page_/input_Nmero de pratos_numeroDePratos""), ""1"", CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:51:54,2023-11-29 12:51:55,"1,012s",PASSED
+"click(findTestObject(""Object Repository/CDT11/Page_/input_submit""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:51:55,2023-11-29 12:51:56,"0,687s",PASSED
+"setText(findTestObject(""Object Repository/CDT11/Page_/input_Nome do prato_nomePrato0""), ""Especial"", CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:51:56,2023-11-29 12:51:57,"1,012s",PASSED
+"setText(findTestObject(""CDT11/Page_/input_Descricao do prato_descricaoPrato0""), ""Massa e queijo"", CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:51:57,2023-11-29 12:51:58,"0,990s",PASSED
+"setText(findTestObject(""Object Repository/CDT11/Page_/input_Preo de cada tamanho_tamanhoPratoMenor0""), ""Pequeno"", CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:51:58,2023-11-29 12:51:59,"1,014s",PASSED
+"setText(findTestObject(""Object Repository/CDT11/Page_/input_R_tamanhoPratoMedio0""), ""Média"", CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:51:59,2023-11-29 12:52:00,"1,003s",PASSED
+"setText(findTestObject(""Object Repository/CDT11/Page_/input_R_tamanhoPratoMaior0""), ""Grande"", CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:52:00,2023-11-29 12:52:01,"0,849s",PASSED
+"setText(findTestObject(""Object Repository/CDT11/Page_/input_R_precoPratoMenor0""), ""12,00"", CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:52:01,2023-11-29 12:52:02,"0,919s",PASSED
+"setText(findTestObject(""Object Repository/CDT11/Page_/input_R_precoPratoMedio0""), ""22,00"", CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:52:02,2023-11-29 12:52:03,"0,990s",PASSED
+"setText(findTestObject(""Object Repository/CDT11/Page_/input_R_precoPratoMaior0""), ""32,00"", CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:52:03,2023-11-29 12:52:04,"0,924s",PASSED
+"click(findTestObject(""CDT11/Page_/input_submit2""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:52:04,2023-11-29 12:52:04,"0,730s",PASSED
+"verifyElementText(findTestObject(""Object Repository/CDT11/Page_/div_Pratos criados com sucesso""), ""Pratos criados com sucesso!"", CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:52:04,2023-11-29 12:52:05,"0,536s",PASSED
+"click(findTestObject(""Object Repository/CDT11/Page_/button_OK""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:52:05,2023-11-29 12:52:05,"0,655s",PASSED
+"setText(findTestObject(""Object Repository/CDT11/Page_/input_Nmero de pratos_numeroDePratos""), ""-1"", CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:52:05,2023-11-29 12:52:07,"1,072s",PASSED
+"click(findTestObject(""Object Repository/CDT11/Page_/input_submit""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:52:07,2023-11-29 12:52:07,"0,520s",PASSED
+"verifyElementNotPresent(findTestObject(""Object Repository/CDT11/Page_/input_Nome do prato_nomePrato0""), 0, CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:52:07,2023-11-29 12:52:08,"0,542s",PASSED
+closeBrowser(CONTINUE_ON_FAILURE),Chrome 119.0.0.0,,,2023-11-29 12:52:08,2023-11-29 12:52:08,"0,812s",PASSED
+,,,,,,,
+Test Cases/CDT12 - RF11 - Cadastrar pizza de dois sabores,Chrome 119.0.0.0,,,2023-11-29 12:52:08,2023-11-29 12:52:29,"20,364s",PASSED
+"openBrowser("""", CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:52:09,2023-11-29 12:52:11,"1,552s",PASSED
+"navigateToUrl(""http://localhost/pizzaWeb2.0/site/"", CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:52:11,2023-11-29 12:52:12,"1,310s",PASSED
+"click(findTestObject(""Object Repository/CDT12 - CDT13/Page_PizzaWeb/a_Entrar""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:52:12,2023-11-29 12:52:13,"0,858s",PASSED
+"callTestCase(findTestCase(""CDT02 - login simple""), [""usuario"":""admin"", ""senha"":""admin""], CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:52:13,2023-11-29 12:52:15,"2,648s",PASSED
+"click(findTestObject(""Object Repository/CDT12 - CDT13/Page_PizzaWeb/a_Gerenciar""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:52:15,2023-11-29 12:52:16,"0,707s",PASSED
+"click(findTestObject(""Object Repository/CDT12 - CDT13/Page_/a_Cadastro de pizzas com dois sabores""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:52:16,2023-11-29 12:52:17,"0,632s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/CDT12 - CDT13/Page_/select_Papillon                 California _9c9891""), ""2"", true, CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:52:17,2023-11-29 12:52:19,"1,743s",PASSED
+"click(findTestObject(""Object Repository/CDT12 - CDT13/Page_/input_avancar""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:52:19,2023-11-29 12:52:19,"0,700s",PASSED
+"click(findTestObject(""Object Repository/CDT12 - CDT13/Page_/input_Mdia_tamanhos""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:52:19,2023-11-29 12:52:20,"0,569s",PASSED
+"click(findTestObject(""Object Repository/CDT12 - CDT13/Page_/input_Mdia_tamanhos_1""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:52:20,2023-11-29 12:52:20,"0,553s",PASSED
+"click(findTestObject(""CDT12 - CDT13/Page_/input_criarpizzadedoissabores""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:52:20,2023-11-29 12:52:21,"0,623s",PASSED
+"navigateToUrl(""http://localhost/pizzaWeb2.0/site/index.php"", CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:52:21,2023-11-29 12:52:21,"0,175s",PASSED
+"click(findTestObject(""Object Repository/CDT12 - CDT13/Page_PizzaWeb/a_California""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:52:21,2023-11-29 12:52:22,"0,896s",PASSED
+"click(findTestObject(""Object Repository/CDT12 - CDT13/Page_PizzaWeb/a_Montar pizza com dois sabores""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:52:22,2023-11-29 12:52:23,"0,824s",PASSED
+"click(findTestObject(""Object Repository/CDT12 - CDT13/Page_/input_avancar""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:52:23,2023-11-29 12:52:23,"0,502s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/CDT12 - CDT13/Page_/select_Calabresa                   Mussarel_f2632c""), ""34"", true, CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:52:23,2023-11-29 12:52:25,"1,551s",PASSED
+"click(findTestObject(""Object Repository/CDT12 - CDT13/Page_/input_avancar""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:52:25,2023-11-29 12:52:26,"0,698s",PASSED
+"click(findTestObject(""Object Repository/CDT12 - CDT13/Page_/input_avancar""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:52:26,2023-11-29 12:52:26,"0,666s",PASSED
+"click(findTestObject(""CDT12 - CDT13/Page_/input_adicionarpedido""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:52:26,2023-11-29 12:52:27,"0,838s",PASSED
+"verifyElementText(findTestObject(""Object Repository/CDT12 - CDT13/Page_PizzaWeb/td_12 Chocolate, 12 Mussarela  Mdia""), ""1/2 Chocolate, 1/2 Calabresa / Média"", CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:52:27,2023-11-29 12:52:28,"0,466s",PASSED
+"verifyElementText(findTestObject(""Object Repository/CDT12 - CDT13/Page_PizzaWeb/td_R 15,00""), ""R$ 15,00"", CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:52:28,2023-11-29 12:52:28,"0,467s",PASSED
+closeBrowser(CONTINUE_ON_FAILURE),Chrome 119.0.0.0,,,2023-11-29 12:52:28,2023-11-29 12:52:29,"0,724s",PASSED
+,,,,,,,
+Test Cases/CDT13 - RF11 - Deletar pizza de dois sabores,Chrome 119.0.0.0,,,2023-11-29 12:52:29,2023-11-29 12:53:17,"48,062s",FAILED
+"openBrowser("""", CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:52:29,2023-11-29 12:52:31,"1,487s",PASSED
+"navigateToUrl(""http://localhost/pizzaWeb2.0/site/"", CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:52:31,2023-11-29 12:52:32,"1,024s",PASSED
+"click(findTestObject(""Object Repository/CDT12 - CDT13/Page_PizzaWeb/a_Entrar""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:52:32,2023-11-29 12:52:33,"1,069s",PASSED
+"callTestCase(findTestCase(""CDT02 - login simple""), [""usuario"":""admin"", ""senha"":""admin""], CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:52:33,2023-11-29 12:52:36,"2,652s",PASSED
+"click(findTestObject(""Object Repository/CDT12 - CDT13/Page_PizzaWeb/a_Gerenciar""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:52:36,2023-11-29 12:52:36,"0,633s",PASSED
+"click(findTestObject(""Object Repository/CDT12 - CDT13/Page_/a_Cadastro de pizzas com dois sabores""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:52:36,2023-11-29 12:52:37,"0,702s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/CDT12 - CDT13/Page_/select_Papillon                 California _9c9891""), ""2"", true, CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:52:37,2023-11-29 12:52:39,"1,746s",PASSED
+"click(findTestObject(""Object Repository/CDT12 - CDT13/Page_/input_adicionarpedido""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:52:39,2023-11-29 12:52:39,"0,618s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/CDT12 - CDT13/Page_/td_Chocolate""), 0, CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:52:39,2023-11-29 12:52:40,"0,515s",PASSED
+"chocolate = getAttribute(findTestObject(""Object Repository/CDT12 - CDT13/Page_/td_Chocolate""), ""value"", CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:52:40,2023-11-29 12:52:40,"0,514s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/CDT12 - CDT13/Page_/td_Calabresa""), 0, CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:52:40,2023-11-29 12:52:41,"0,431s",PASSED
+"calabresa = getAttribute(findTestObject(""Object Repository/CDT12 - CDT13/Page_/td_Calabresa""), ""value"", CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:52:41,2023-11-29 12:52:41,"0,463s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/CDT12 - CDT13/Page_/td_Mdia""), 0, CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:52:41,2023-11-29 12:52:42,"0,484s",PASSED
+"tamanho = getAttribute(findTestObject(""Object Repository/CDT12 - CDT13/Page_/td_Mdia""), ""value"", CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:52:42,2023-11-29 12:52:42,"0,526s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/CDT12 - CDT13/Page_/td_R 15""), 0, CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:52:42,2023-11-29 12:52:43,"0,525s",PASSED
+"reais = getAttribute(findTestObject(""Object Repository/CDT12 - CDT13/Page_/td_R 15""), ""value"", CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:52:43,2023-11-29 12:52:43,"0,462s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/CDT12 - CDT13/Page_/td_Deletar""), 0, CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:52:43,2023-11-29 12:52:44,"0,562s",PASSED
+"click(findTestObject(""Object Repository/CDT12 - CDT13/Page_/a_Deletar""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:52:44,2023-11-29 12:52:45,"0,685s",PASSED
+"if (chocolate != getAttribute(findTestObject(""Object Repository/CDT12 - CDT13/Page_/td_Chocolate""), ""value"") && calabresa != getAttribute(findTestObject(""Object Repository/CDT12 - CDT13/Page_/td_Calabresa""), ""value"") && tamanho != getAttribute(findTestObject(""Object Repository/CDT12 - CDT13/Page_/td_Mdia""), ""value"") && reais != getAttribute(findTestObject(""Object Repository/CDT12 - CDT13/Page_/td_R 15""), ""value""))",Chrome 119.0.0.0,,,2023-11-29 12:52:45,2023-11-29 12:52:45,"0,469s",PASSED
+else,Chrome 119.0.0.0,,,2023-11-29 12:52:45,2023-11-29 12:53:16,"30,945s",FAILED
+closeBrowser(CONTINUE_ON_FAILURE),Chrome 119.0.0.0,,,2023-11-29 12:53:16,2023-11-29 12:53:17,"0,909s",PASSED
+,,,,,,,
+Test Cases/CDT14 - RF15 - Alterar dados do restaurante com um dos campos obrigatorios vazios,Chrome 119.0.0.0,,,2023-11-29 12:53:17,2023-11-29 12:53:32,"15,511s",FAILED
+"openBrowser("""", CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:53:18,2023-11-29 12:53:19,"1,684s",PASSED
+"navigateToUrl(""http://localhost/pizzaWeb2.0/site/"", CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:53:19,2023-11-29 12:53:22,"2,838s",PASSED
+"click(findTestObject(""Object Repository/CDT14 - CDT15/Page_PizzaWeb/a_Entrar""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:53:22,2023-11-29 12:53:23,"0,829s",PASSED
+"callTestCase(findTestCase(""CDT02 - login simple""), [""usuario"":""admin"", ""senha"":""admin""], CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:53:23,2023-11-29 12:53:26,"2,858s",PASSED
+"click(findTestObject(""Object Repository/CDT14 - CDT15/Page_PizzaWeb/a_Gerenciar""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:53:26,2023-11-29 12:53:26,"0,585s",PASSED
+"navigateToUrl(""http://localhost/pizzaWeb2.0/site/administrador.php"", CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:53:26,2023-11-29 12:53:26,"0,080s",PASSED
+"click(findTestObject(""Object Repository/CDT14 - CDT15/Page_/a_Gerenciar Restaurantes""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:53:26,2023-11-29 12:53:27,"0,712s",PASSED
+"click(findTestObject(""Object Repository/CDT14 - CDT15/Page_/input_editar""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:53:27,2023-11-29 12:53:28,"0,757s",PASSED
+"setText(findTestObject(""Object Repository/CDT14 - CDT15/Page_/input_cidade""), """", CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:53:28,2023-11-29 12:53:29,"0,884s",PASSED
+"click(findTestObject(""CDT14 - CDT15/Page_/input_confirmarcadastro""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:53:29,2023-11-29 12:53:29,"0,694s",PASSED
+"verifyElementNotPresent(findTestObject(""Object Repository/CDT14 - CDT15/Page_/div_Dados alterados com sucesso""), 1, CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:53:29,2023-11-29 12:53:31,"1,517s",FAILED
+"click(findTestObject(""Object Repository/CDT14 - CDT15/Page_/button_OK""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:53:31,2023-11-29 12:53:32,"0,606s",PASSED
+closeBrowser(CONTINUE_ON_FAILURE),Chrome 119.0.0.0,,,2023-11-29 12:53:32,2023-11-29 12:53:32,"0,781s",PASSED
+,,,,,,,
+Test Cases/CDT15 - RF15 - Alterar dados do restaurante com todos os campos obrigatorios preenchidos,Chrome 119.0.0.0,,,2023-11-29 12:53:32,2023-11-29 12:53:46,"13,271s",PASSED
+"openBrowser("""", CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:53:33,2023-11-29 12:53:34,"1,456s",PASSED
+"navigateToUrl(""http://localhost/pizzaWeb2.0/site/"", CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:53:34,2023-11-29 12:53:36,"1,422s",PASSED
+"click(findTestObject(""Object Repository/CDT14 - CDT15/Page_PizzaWeb/a_Entrar""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:53:36,2023-11-29 12:53:37,"0,779s",PASSED
+"callTestCase(findTestCase(""CDT02 - login simple""), [""usuario"":""admin"", ""senha"":""admin""], CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:53:37,2023-11-29 12:53:39,"2,687s",PASSED
+"click(findTestObject(""Object Repository/CDT14 - CDT15/Page_PizzaWeb/a_Gerenciar""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:53:39,2023-11-29 12:53:40,"0,683s",PASSED
+"navigateToUrl(""http://localhost/pizzaWeb2.0/site/administrador.php"", CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:53:40,2023-11-29 12:53:40,"0,076s",PASSED
+"click(findTestObject(""Object Repository/CDT14 - CDT15/Page_/a_Gerenciar Restaurantes""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:53:40,2023-11-29 12:53:41,"0,753s",PASSED
+"click(findTestObject(""Object Repository/CDT14 - CDT15/Page_/input_editar""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:53:41,2023-11-29 12:53:41,"0,517s",PASSED
+"setText(findTestObject(""Object Repository/CDT14 - CDT15/Page_/input_cidade""), ""Nova Friburgo"", CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:53:41,2023-11-29 12:53:42,"1,021s",PASSED
+"click(findTestObject(""CDT14 - CDT15/Page_/input_confirmarcadastro""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:53:42,2023-11-29 12:53:43,"0,594s",PASSED
+"verifyElementText(findTestObject(""Object Repository/CDT14 - CDT15/Page_/div_Dados alterados com sucesso""), ""Dados alterados com sucesso!"", CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:53:43,2023-11-29 12:53:44,"0,522s",PASSED
+"click(findTestObject(""Object Repository/CDT14 - CDT15/Page_/button_OK""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:53:44,2023-11-29 12:53:44,"0,617s",PASSED
+"verifyElementText(findTestObject(""Object Repository/CDT14 - CDT15/Page_/td_localizacao""), ""Rua General Osório - no.10 - Centro - Nova Friburgo - RJ"", CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:53:44,2023-11-29 12:53:45,"0,667s",PASSED
+closeBrowser(CONTINUE_ON_FAILURE),Chrome 119.0.0.0,,,2023-11-29 12:53:45,2023-11-29 12:53:46,"0,830s",PASSED

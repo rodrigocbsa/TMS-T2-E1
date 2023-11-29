@@ -1,0 +1,13 @@
+{"testCaseName":"Test Cases/CDT01- RF01 - login cliente - Verificar login incorreto e correto","testCaseId":"Test Cases/CDT01- RF01 - login cliente - Verificar login incorreto e correto","iterationVariableName":""}
+{"testCaseName":"Test Cases/CDT04 - RF01 - cadastro cliente - Verificar erros de preenchimento","testCaseId":"Test Cases/CDT04 - RF01 - cadastro cliente - Verificar erros de preenchimento","iterationVariableName":""}
+{"testCaseName":"Test Cases/CDT05 - RF01 - cadastro cliente - Verificar sucesso e usuarios repetidos","testCaseId":"Test Cases/CDT05 - RF01 - cadastro cliente - Verificar sucesso e usuarios repetidos","iterationVariableName":""}
+{"testCaseName":"Test Cases/CDT06 - RF02 - realizar pedido","testCaseId":"Test Cases/CDT06 - RF02 - realizar pedido","iterationVariableName":""}
+{"testCaseName":"Test Cases/CDT07 - RF02 - realizar pedido fora do horario","testCaseId":"Test Cases/CDT07 - RF02 - realizar pedido fora do horario","iterationVariableName":""}
+{"testCaseName":"Test Cases/CDT08 - RF04 - cadastrar restaurante com campos em branco","testCaseId":"Test Cases/CDT08 - RF04 - cadastrar restaurante com campos em branco","iterationVariableName":""}
+{"testCaseName":"Test Cases/CDT09 - RF04 - cadastrar restaurante com sucesso","testCaseId":"Test Cases/CDT09 - RF04 - cadastrar restaurante com sucesso","iterationVariableName":""}
+{"testCaseName":"Test Cases/CDT10 - RF07 - cadastrar Categorias de pratos","testCaseId":"Test Cases/CDT10 - RF07 - cadastrar Categorias de pratos","iterationVariableName":""}
+{"testCaseName":"Test Cases/CDT11 - RF09 - Cadastrar cardápio","testCaseId":"Test Cases/CDT11 - RF09 - Cadastrar cardápio","iterationVariableName":""}
+{"testCaseName":"Test Cases/CDT12 - RF11 - Cadastrar pizza de dois sabores","testCaseId":"Test Cases/CDT12 - RF11 - Cadastrar pizza de dois sabores","iterationVariableName":""}
+{"testCaseName":"Test Cases/CDT13 - RF11 - Deletar pizza de dois sabores","testCaseId":"Test Cases/CDT13 - RF11 - Deletar pizza de dois sabores","iterationVariableName":""}
+{"testCaseName":"Test Cases/CDT14 - RF15 - Alterar dados do restaurante com um dos campos obrigatorios vazios","testCaseId":"Test Cases/CDT14 - RF15 - Alterar dados do restaurante com um dos campos obrigatorios vazios","iterationVariableName":""}
+{"testCaseName":"Test Cases/CDT15 - RF15 - Alterar dados do restaurante com todos os campos obrigatorios preenchidos","testCaseId":"Test Cases/CDT15 - RF15 - Alterar dados do restaurante com todos os campos obrigatorios preenchidos","iterationVariableName":""}
