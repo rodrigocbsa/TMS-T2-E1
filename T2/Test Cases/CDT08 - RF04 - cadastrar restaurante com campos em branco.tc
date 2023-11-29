@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>CDT08 - RF04 - cadastrar restaurante com campos em branco</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>30ef3592-71ab-46ed-9a22-f6b4b706c716</testCaseGuid>
-</TestCaseEntity>
